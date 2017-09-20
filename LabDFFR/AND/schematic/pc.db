@@ -1,0 +1,13 @@
+#
+LabDFFR inv symbol
+I1
+#
+LabDFFR NAND2 symbol
+I0
+#ISCELL
+basic ipin symbol
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN2
