@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vlsi4
+HostName                       cefar
+ProcessIdentifier              30830
+ProcessCreationTime_UTC        1463779557
+ProcessCreationTime_Readable   Sat May 21 02:25:57 2016 PKT
+AppIdentifier                  /usr/Cadence/tools/dfII/bin/icfb.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       XXreopen for A_MODE lock
+FilePathUsedToEditLock         /home/vlsi4/groupwork/LabDFFR/dffr/layout/layout.cdb
+TimeEditLocked                 Sat May 21 02:32:39 2016 PKT
