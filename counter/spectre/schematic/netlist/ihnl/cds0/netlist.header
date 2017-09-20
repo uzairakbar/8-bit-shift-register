@@ -1,0 +1,5 @@
+
+// Library name: Counter
+// Cell name: dffr
+// View name: schematic
+subckt dffr CLK D Q QB R

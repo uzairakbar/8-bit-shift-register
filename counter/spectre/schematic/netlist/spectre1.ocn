@@ -1,0 +1,43 @@
+simulator( 'spectre )
+design(	 "/home/vlsi4/groupwork/counter/spectre/schematic/netlist/netlist")
+resultsDir( "/home/vlsi4/groupwork/counter/spectre/schematic" )
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+analysis('tran ?stop "200n"  )
+envOption(
+	'spp  "Y" 
+)
+temp( 27 ) 
+run()
+selectResult( 'tran )
+plot(getData("/Y0") getData("/Y1") getData("/Y2") getData("/R") getData("/Clk") )
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+run()
+selectResult( 'tran )
+plot(getData("/Y0") getData("/Y1") getData("/Y2") getData("/R") getData("/Clk") )
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+run()
+selectResult( 'tran )
+plot(getData("/Y0") getData("/Y1") getData("/Y2") getData("/R") getData("/Clk") )
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+run()
+selectResult( 'tran )
+plot(getData("/Y0") getData("/Y1") getData("/Y2") getData("/R") getData("/Clk") )
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+run()
+selectResult( 'tran )
+plot(getData("/Y0") getData("/Y1") getData("/Y2") getData("/R") getData("/Clk") )

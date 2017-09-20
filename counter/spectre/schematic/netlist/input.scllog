@@ -1,0 +1,8 @@
+spectre (ver. 5.10.41_USR5.053107 -- 31 May 2007).
+
+Simulating `input.scs' on cefar at 4:35:46 AM, Sat May 14, 2016.
+H = mpsImport( "spectre" "ipi" "v0.0" ?session "spectre1_13979_1" )
+H->sclSetResultDir( "../psf" )
+H->sclRun( "all" )
+H->sclSetResultDir( "../psf" )
+H->sclRun( "all" )

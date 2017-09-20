@@ -1,0 +1,27 @@
+simulator( 'spectre )
+design(	 "/home/vlsi4/groupwork/counter/spectre/schematic/netlist/netlist")
+resultsDir( "/home/vlsi4/groupwork/counter/spectre/schematic" )
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+envOption(
+	'spp  "Y" 
+)
+temp( 27 ) 
+run()
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+run()
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+run()
+modelFile( 
+    '("/usr/ee424/ami06N.m" "")
+    '("/usr/ee424/ami06P.m" "")
+)
+run()

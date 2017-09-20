@@ -1,0 +1,7 @@
+
+// Library name: Counter
+// Cell name: counter
+// View name: schematic
+I3 (Clk net6 Y2 net6 R) dffr
+I1 (net6 net11 Y1 net11 R) dffr
+I0 (net11 net16 Y0 net16 R) dffr

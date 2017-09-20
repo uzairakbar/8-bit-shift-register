@@ -1,0 +1,8 @@
+// Generated for: spectre
+// Generated on: May 14 04:35:45 2016
+// Design library name: Counter
+// Design cell name: counter
+// Design view name: schematic
+simulator lang=spectre
+global 0 vdd!
+include "/usr/Cadence/tools/dfII/samples/artist/ahdlLib/quantity.spectre"

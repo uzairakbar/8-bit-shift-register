@@ -1,0 +1,11 @@
+CADENCE IHNL01060
+$model
+Counter/counter/schematic counter
+Counter/dffr/schematic dffr
+$endmodel
+$net
+vdd! vdd!
+gnd! 0
+$endnet
+$param
+$endparam

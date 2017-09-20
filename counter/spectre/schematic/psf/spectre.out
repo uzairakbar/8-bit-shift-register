@@ -1,0 +1,169 @@
+Command line:
+    /usr/Cadence/tools.lnx86/spectre/bin/32bit/spectre -env artist5.1.0  \
+        +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre1_13979_1 -format sst2 -raw ../psf +spp  \
+        +lqtimeout 900 input.scs
+spectre pid = 14724
+
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libinfineon_sh.so ...
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libnortel_sh.so ...
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libphilips_sh.so ...
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libsparam_sh.so ...
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libstmodels_sh.so ...
+spectre (ver. 5.10.41_USR5.053107 -- 31 May 2007).
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
+        Security, Inc.
+
+Simulating `input.scs' on cefar at 4:35:46 AM, Sat May 14, 2016.
+
+Notice from spectre during topology check.
+    Only one connection to node `CLK'.
+    No DC path from node `Clk' to ground, Gmin installed to provide path.
+    No DC path from node `R' to ground, Gmin installed to provide path.
+
+
+Circuit inventory:
+              nodes 61
+          equations 63
+            bsim3v3 102   
+           quantity 9     
+            vsource 2     
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0,
+        spectre1_13979_1, ).
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 200 ns)
+*************************************************
+Trying `homotopy = gmin' for initial conditions.
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    Gmin = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I3.net91) = 31.4127 mV
+        Use `gmin_check' option to eliminate or expand this report.
+
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 200 ns
+    step = 200 ps
+    maxstep = 4 ns
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    maxrsd = 0 Ohm
+    mos_method = s
+    mos_vres = 50 mV
+
+    tran: time = 6.35 ns     (3.17 %), step = 3.2 ns        (1.6 %)
+    tran: time = 16.4 ns      (8.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 26.35 ns    (13.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 36.4 ns     (18.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 46.35 ns    (23.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 56.4 ns     (28.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 66.35 ns    (33.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 76.4 ns     (38.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 86.35 ns    (43.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 96.4 ns     (48.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 106.4 ns    (53.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 116.4 ns    (58.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 126.4 ns    (63.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 136.4 ns    (68.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 146.4 ns    (73.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 156.4 ns    (78.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 166.4 ns    (83.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 176.4 ns    (88.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 186.4 ns    (93.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 196.4 ns    (98.2 %), step = 3.2 ns        (1.6 %)
+Number of accepted tran steps = 160.
+Initial condition solution time = 30 ms.
+Intrinsic tran analysis time = 70 ms.
+Total time required for tran analysis `tran' was 100 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 200 ns)
+*************************************************
+Trying `homotopy = gmin' for initial conditions.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 200 ns
+    step = 200 ps
+    maxstep = 4 ns
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    maxrsd = 0 Ohm
+    mos_method = s
+    mos_vres = 50 mV
+
+    tran: time = 6.35 ns     (3.17 %), step = 3.2 ns        (1.6 %)
+    tran: time = 16.4 ns      (8.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 26.35 ns    (13.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 36.4 ns     (18.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 46.35 ns    (23.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 56.4 ns     (28.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 66.35 ns    (33.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 76.4 ns     (38.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 86.35 ns    (43.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 96.4 ns     (48.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 106.4 ns    (53.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 116.4 ns    (58.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 126.4 ns    (63.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 136.4 ns    (68.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 146.4 ns    (73.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 156.4 ns    (78.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 166.4 ns    (83.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 176.4 ns    (88.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 186.4 ns    (93.2 %), step = 3.2 ns        (1.6 %)
+    tran: time = 196.4 ns    (98.2 %), step = 3.2 ns        (1.6 %)
+Number of accepted tran steps = 160.
+Initial condition solution time = 40 ms.
+Intrinsic tran analysis time = 60 ms.
+Total time required for tran analysis `tran' was 100 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
+Spectre received SIGPIPE.
+
+Killed by user.
+
+Aggregate audit (5:00:15 AM, Sat May 14, 2016):
+Time used: CPU = 400 ms, elapsed = 1.47 ks (24m  29.0s), util. = 27.2e-03%.
+Virtual memory used = 3.8 Mbytes.
+spectre completes with 0 errors, 0 warnings, and 4 notices.

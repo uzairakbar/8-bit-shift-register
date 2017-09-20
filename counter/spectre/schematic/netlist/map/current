@@ -1,0 +1,28 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "counter"
+  repList "spectre cmos_sch cmos.sch schematic veriloga ahdl"
+  stopList "spectre"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/home/vlsi4/groupwork/counter/spectre/schematic/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "Counter/dffr/schematic" "dffr" )
+( "Counter/counter/schematic" "counter" )
+( "gnd!" "0" )
+ )
+( term
+ )
+( param
+ )
+( "counter" "ihnl/cds1/map" )
+( "dffr" "ihnl/cds0/map" )
+ )

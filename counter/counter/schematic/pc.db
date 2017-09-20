@@ -1,0 +1,14 @@
+#
+Counter dffr symbol
+I3
+I1
+I0
+#ISCELL
+basic ipin symbol
+PIN4
+PIN0
+#ISCELL
+basic opin symbol
+PIN1
+PIN3
+PIN2

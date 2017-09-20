@@ -1,0 +1,12 @@
+HEADER
+"PSFversion" "1.00"
+"net11v" "net11"
+"net16v" "net16"
+"net6v" "net6"
+"Rv" "R"
+"Clkv" "Clk"
+"Y1v" "Y1"
+"Y0v" "Y0"
+"Y2v" "Y2"
+"gnd!v" "0"
+"vdd!v" "vdd!"
