@@ -1,0 +1,93 @@
+@(#)$CDS: LVS.exe version 5.1.0 06/20/2007 02:10 (cicln03) $
+
+Command line: /usr/Cadence/tools.lnx86/dfII/bin/32bit/LVS.exe -dir /home/vlsi4/groupwork/LVS/dffr/ -l -s -t /home/vlsi4/groupwork/LVS/dffr//layout /home/vlsi4/groupwork/LVS/dffr//schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+
+    Net-list summary for /home/vlsi4/groupwork/LVS/dffr//layout/netlist
+       count
+	24		nets
+	7		terminals
+	17		pmos
+	17		nmos
+
+    Net-list summary for /home/vlsi4/groupwork/LVS/dffr//schematic/netlist
+       count
+	24		nets
+	7		terminals
+	17		pmos
+	17		nmos
+
+
+    Terminal correspondence points
+    N17       N13       CLK
+    N10       N7        D
+    N13       N8        Q
+    N23       N23       QB
+    N9        N6        R
+    N16       N1        gnd!
+    N0        N0        vdd!
+
+Devices in the netlist but not in the rules:
+        pcapacitor
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+			     layout  schematic
+				instances
+	un-matched		0	0
+	rewired			0	0
+	size errors		0	0
+	pruned			0	0
+	active			34	34
+	total			34	34
+
+				  nets
+	un-matched		0	0
+	merged			0	0
+	pruned			0	0
+	active			24	24
+	total			24	24
+
+				terminals
+	un-matched		0	0
+	matched but
+	different type		0	0
+	total			7	7
+
+
+Probe files from /home/vlsi4/groupwork/LVS/dffr//schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/vlsi4/groupwork/LVS/dffr//layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
