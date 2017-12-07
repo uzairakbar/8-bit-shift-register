@@ -1,0 +1,9 @@
+simulator lang=spectre
+vdd (vdd! 0) vsource dc=3
+
+vL  (L 0)   vsource type=pwl wave=\[0n 0 10n 0 10.05n 3 20n 3 20.05n 0 60n 0]
+vM  (M 0)   vsource type=pwl wave=\[0n 0 20n 0 20.05n 3 30n 3 30.05n 0 60n 0]
+vN  (N 0)   vsource type=pwl wave=\[0n 0 30n 0 30.05n 3 40n 3 40.05n 0 60n 0]
+vO  (O 0)   vsource type=pwl wave=\[0n 0 40n 0 40.05n 3 50n 3 50.05n 0 60n 0]
+vS0 (S0 0)  vsource type=pwl wave=\[0n 0 30n 0 30.05n 3 50n 3 50.05n 0 60n 0]
+vS1 (S1 0)  vsource type=pwl wave=\[0n 0 20n 0 20.05n 3 30n 3 30.05n 0 40n 0 40.05n 3 50n 3 50.05n 0]
