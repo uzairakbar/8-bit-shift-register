@@ -1,0 +1,8 @@
+// Generated for: spectre
+// Generated on: May 21 04:23:33 2016
+// Design library name: ShiftReg
+// Design cell name: 8-bit
+// Design view name: extracted
+simulator lang=spectre
+global 0
+include "/usr/Cadence/tools/dfII/samples/artist/ahdlLib/quantity.spectre"

@@ -1,0 +1,24 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "8-bit"
+  repList "spectre cmos_sch cmos.sch extracted schematic veriloga ahdl"
+  stopList "spectre"
+  hierDelim "."
+  netlistDir "/home/vlsi4/groupwork/simulation/8-bit/spectre/extracted/netlist"
+ )
+( instViewTable
+ )
+( net
+ )
+( inst
+ )
+( model
+( "ShiftReg/8-bit/extracted" "_sub0" )
+ )
+( term
+ )
+( param
+ )
+( "_sub0" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,6 @@
+alias measurement transient {
+
+	run tran( stop=100n, write="spectre.ic", writefinal="spectre.fc", annotate='status, maxiters=int(5) )
+}
+
+run transient as transient1

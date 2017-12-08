@@ -1,0 +1,2399 @@
+
+// Library name: ShiftReg
+// Cell name: 8-bit
+// View name: extracted
+\+1966 (_23 _147) capacitor c=1.35594e-15 m=1
+\+1960 (_23 _140) capacitor c=1.674e-15 m=1
+\+1954 (_23 _132) capacitor c=6.6123e-16 m=1
+\+1953 (_23 _131) capacitor c=1.35594e-15 m=1
+\+1945 (_23 _122) capacitor c=4.6872e-16 m=1
+\+1941 (_23 _117) capacitor c=1.35594e-15 m=1
+\+1936 (_23 _111) capacitor c=2.77884e-15 m=1
+\+1932 (_23 _106) capacitor c=6.6123e-16 m=1
+\+1925 (_23 _97) capacitor c=5.3568e-16 m=1
+\+1924 (_23 _96) capacitor c=2.77884e-15 m=1
+\+1921 (_23 _93) capacitor c=4.6872e-16 m=1
+\+1918 (_23 _88) capacitor c=6.6123e-16 m=1
+\+1916 (_23 _85) capacitor c=1.07136e-15 m=1
+\+1913 (_23 _82) capacitor c=5.3568e-16 m=1
+\+1909 (_23 _78) capacitor c=4.6872e-16 m=1
+\+1900 (_23 _66) capacitor c=2.77884e-15 m=1
+\+1897 (_23 _63) capacitor c=4.6872e-16 m=1
+\+1894 (_23 _58) capacitor c=6.6123e-16 m=1
+\+1893 (_23 _57) capacitor c=1.35594e-15 m=1
+\+1892 (_23 _55) capacitor c=1.07136e-15 m=1
+\+1887 (_23 _50) capacitor c=1.674e-15 m=1
+\+1881 (_23 _41) capacitor c=1.35594e-15 m=1
+\+1877 (_23 _36) capacitor c=5.3568e-16 m=1
+\+1875 (_23 _34) capacitor c=1.674e-15 m=1
+\+1873 (_23 _32) capacitor c=4.6872e-16 m=1
+\+1872 (_23 _30) capacitor c=6.6123e-16 m=1
+\+1870 (_23 _27) capacitor c=6.6123e-16 m=1
+\+1869 (_23 _24) capacitor c=6.6123e-16 m=1
+\+1868 (S2 _23) capacitor c=9.3744e-15 m=1
+\+1867 (S1 _23) capacitor c=5.83724e-14 m=1
+\+1860 (X3 _23) capacitor c=6.0264e-16 m=1
+\+1813 (vdd! _85) capacitor c=6.696e-16 m=1
+\+1761 (vdd! X3) capacitor c=1.3392e-16 m=1
+\+1754 (RESET _23) capacitor c=1.13162e-14 m=1
+\+1750 (_142 _143) capacitor c=4.434e-16 m=1
+\+1744 (_138 _139) capacitor c=2.7e-16 m=1
+\+1743 (_136 _137) capacitor c=2.7e-16 m=1
+\+1742 (_135 _139) capacitor c=2.7e-16 m=1
+\+1741 (_134 _135) capacitor c=2.7e-16 m=1
+\+1740 (_132 _133) capacitor c=2.7e-16 m=1
+\+1737 (_126 _127) capacitor c=4.434e-16 m=1
+\+1731 (_122 _123) capacitor c=2.7e-16 m=1
+\+1730 (_120 _121) capacitor c=2.7e-16 m=1
+\+1729 (_119 _123) capacitor c=2.7e-16 m=1
+\+1728 (_118 _119) capacitor c=2.7e-16 m=1
+\+1719 (_108 _109) capacitor c=2.7e-16 m=1
+\+1718 (_106 _107) capacitor c=2.7e-16 m=1
+\+1717 (_105 _136) capacitor c=2.7e-16 m=1
+\+1716 (_104 _109) capacitor c=2.7e-16 m=1
+\+1715 (_103 _104) capacitor c=2.7e-16 m=1
+\+1706 (_93 _94) capacitor c=2.7e-16 m=1
+\+1705 (_91 _92) capacitor c=2.7e-16 m=1
+\+1704 (_90 _120) capacitor c=2.7e-16 m=1
+\+1703 (_89 _94) capacitor c=2.7e-16 m=1
+\+1702 (_88 _89) capacitor c=2.7e-16 m=1
+\+1699 (_82 _83) capacitor c=4.434e-16 m=1
+\+1693 (_78 _79) capacitor c=2.7e-16 m=1
+\+1692 (_76 _77) capacitor c=2.7e-16 m=1
+\+1691 (_75 _106) capacitor c=2.7e-16 m=1
+\+1690 (_74 _79) capacitor c=2.7e-16 m=1
+\+1689 (_73 _74) capacitor c=2.7e-16 m=1
+\+1680 (_63 _64) capacitor c=2.7e-16 m=1
+\+1679 (_61 _62) capacitor c=2.7e-16 m=1
+\+1678 (_60 _91) capacitor c=2.7e-16 m=1
+\+1677 (_59 _64) capacitor c=2.7e-16 m=1
+\+1676 (_58 _59) capacitor c=2.7e-16 m=1
+\+1667 (_48 _49) capacitor c=2.7e-16 m=1
+\+1666 (_46 _47) capacitor c=2.7e-16 m=1
+\+1665 (_45 _76) capacitor c=2.7e-16 m=1
+\+1664 (_44 _49) capacitor c=2.7e-16 m=1
+\+1663 (_43 _44) capacitor c=2.7e-16 m=1
+\+1662 (_42 _46) capacitor c=2.7e-16 m=1
+\+1653 (_32 _33) capacitor c=2.7e-16 m=1
+\+1652 (_30 _31) capacitor c=2.7e-16 m=1
+\+1651 (_29 _61) capacitor c=2.7e-16 m=1
+\+1650 (_28 _33) capacitor c=2.7e-16 m=1
+\+1649 (_27 _28) capacitor c=2.7e-16 m=1
+\+1648 (_25 _30) capacitor c=2.7e-16 m=1
+\+1647 (_24 _25) capacitor c=2.7e-16 m=1
+\+1641 (_23 _142) capacitor c=1.6776e-15 m=1
+\+1638 (_23 _139) capacitor c=5.7258e-16 m=1
+\+1637 (_23 _138) capacitor c=7.4316e-16 m=1
+\+1635 (_23 _136) capacitor c=5.7258e-16 m=1
+\+1631 (_23 _132) capacitor c=5.7258e-16 m=1
+\+1624 (_23 _125) capacitor c=3.62436e-15 m=1
+\+1622 (_23 _123) capacitor c=5.7258e-16 m=1
+\+1620 (_23 _121) capacitor c=3.39408e-15 m=1
+\+1617 (_23 _118) capacitor c=5.7258e-16 m=1
+\+1612 (_23 _113) capacitor c=2.1675e-15 m=1
+\+1607 (_23 _108) capacitor c=7.4316e-16 m=1
+\+1605 (_23 _106) capacitor c=5.7258e-16 m=1
+\+1604 (_23 _105) capacitor c=3.35352e-15 m=1
+\+1602 (_23 _103) capacitor c=5.7258e-16 m=1
+\+1601 (_23 _102) capacitor c=1.42728e-15 m=1
+\+1596 (_23 _97) capacitor c=1.6776e-15 m=1
+\+1595 (_23 _96) capacitor c=3.62436e-15 m=1
+\+1592 (_23 _93) capacitor c=7.4316e-16 m=1
+\+1589 (_23 _90) capacitor c=3.35352e-15 m=1
+\+1587 (_23 _88) capacitor c=5.7258e-16 m=1
+\+1586 (_23 _87) capacitor c=1.42728e-15 m=1
+\+1581 (_23 _82) capacitor c=1.6776e-15 m=1
+\+1580 (_23 _81) capacitor c=3.62436e-15 m=1
+\+1578 (_23 _79) capacitor c=5.7258e-16 m=1
+\+1575 (_23 _76) capacitor c=5.7258e-16 m=1
+\+1574 (_23 _75) capacitor c=3.35352e-15 m=1
+\+1566 (_23 _67) capacitor c=1.6776e-15 m=1
+\+1562 (_23 _63) capacitor c=7.4316e-16 m=1
+\+1558 (_23 _59) capacitor c=2.7729e-15 m=1
+\+1551 (_23 _52) capacitor c=1.6776e-15 m=1
+\+1547 (_23 _48) capacitor c=7.4316e-16 m=1
+\+1546 (_23 _47) capacitor c=3.39408e-15 m=1
+\+1540 (_23 _41) capacitor c=1.42728e-15 m=1
+\+1534 (_23 _35) capacitor c=3.62436e-15 m=1
+\+1532 (_23 _33) capacitor c=5.7258e-16 m=1
+\+1528 (_23 _29) capacitor c=3.35352e-15 m=1
+\+1527 (_23 _28) capacitor c=2.7729e-15 m=1
+\+1525 (_23 _26) capacitor c=3.47184e-15 m=1
+\+1524 (_23 _25) capacitor c=1.48632e-15 m=1
+\+1523 (_23 _24) capacitor c=5.7258e-16 m=1
+\+1462 (X7 _26) capacitor c=2.7e-16 m=1
+\+1451 (X6 _105) capacitor c=2.7e-16 m=1
+\+1448 (X5 _90) capacitor c=2.7e-16 m=1
+\+1445 (X4 _75) capacitor c=2.7e-16 m=1
+\+1443 (X3 _85) capacitor c=2.7e-16 m=1
+\+1442 (X3 _60) capacitor c=2.7e-16 m=1
+\+1441 (X3 _23) capacitor c=1.83396e-15 m=1
+\+1319 (vdd! X3) capacitor c=4.4736e-16 m=1
+\+1317 (X2 _45) capacitor c=2.7e-16 m=1
+\+1313 (X1 _29) capacitor c=2.7e-16 m=1
+\+1310 (X0 _42) capacitor c=2.7e-16 m=1
+\+1306 (D7 _27) capacitor c=2.7e-16 m=1
+\+1305 (D7 _24) capacitor c=2.7e-16 m=1
+\+1304 (D7 _23) capacitor c=1.48632e-15 m=1
+\+1300 (D6 _43) capacitor c=2.7e-16 m=1
+\+1299 (D6 _23) capacitor c=7.4316e-16 m=1
+\+1296 (D5 _58) capacitor c=2.7e-16 m=1
+\+1295 (D5 _23) capacitor c=7.4316e-16 m=1
+\+1292 (D4 _73) capacitor c=2.7e-16 m=1
+\+1291 (D4 _23) capacitor c=7.4316e-16 m=1
+\+1288 (D3 _88) capacitor c=2.7e-16 m=1
+\+1287 (D3 _23) capacitor c=7.4316e-16 m=1
+\+1284 (D2 _103) capacitor c=2.7e-16 m=1
+\+1283 (D2 _23) capacitor c=7.4316e-16 m=1
+\+1280 (D1 _118) capacitor c=2.7e-16 m=1
+\+1279 (D1 _23) capacitor c=7.4316e-16 m=1
+\+1276 (D0 _134) capacitor c=2.7e-16 m=1
+\+1275 (D0 _132) capacitor c=2.7e-16 m=1
+\+1268 (RESET _144) capacitor c=2.217e-16 m=1
+\+1267 (RESET _143) capacitor c=6.651e-16 m=1
+\+1266 (RESET _140) capacitor c=2.217e-16 m=1
+\+1263 (RESET _128) capacitor c=2.217e-16 m=1
+\+1262 (RESET _127) capacitor c=6.651e-16 m=1
+\+1261 (RESET _124) capacitor c=2.217e-16 m=1
+\+1258 (RESET _114) capacitor c=2.217e-16 m=1
+\+1257 (RESET _113) capacitor c=6.651e-16 m=1
+\+1256 (RESET _110) capacitor c=2.217e-16 m=1
+\+1253 (RESET _99) capacitor c=2.217e-16 m=1
+\+1251 (RESET _95) capacitor c=2.217e-16 m=1
+\+1248 (RESET _84) capacitor c=2.217e-16 m=1
+\+1246 (RESET _80) capacitor c=2.217e-16 m=1
+\+1243 (RESET _69) capacitor c=2.217e-16 m=1
+\+1242 (RESET _68) capacitor c=6.651e-16 m=1
+\+1241 (RESET _65) capacitor c=2.217e-16 m=1
+\+1238 (RESET _54) capacitor c=2.217e-16 m=1
+\+1236 (RESET _50) capacitor c=2.217e-16 m=1
+\+1233 (RESET _38) capacitor c=2.217e-16 m=1
+\+1232 (RESET _37) capacitor c=6.651e-16 m=1
+\+1231 (RESET _34) capacitor c=2.217e-16 m=1
+\+1230 (RESET _23) capacitor c=1.34208e-14 m=1
+\+1228 (_138 _141) capacitor c=2.7192e-16 m=1
+\+1227 (_138 _140) capacitor c=4.5696e-16 m=1
+\+1226 (_138 _139) capacitor c=4.5696e-16 m=1
+\+1225 (_135 _138) capacitor c=3.1776e-16 m=1
+\+1223 (_133 _134) capacitor c=7.38945e-16 m=1
+\+1222 (_132 _133) capacitor c=1.9506e-16 m=1
+\+1221 (_122 _125) capacitor c=2.7192e-16 m=1
+\+1220 (_122 _124) capacitor c=4.5696e-16 m=1
+\+1219 (_122 _123) capacitor c=4.5696e-16 m=1
+\+1218 (_119 _122) capacitor c=3.1776e-16 m=1
+\+1217 (_108 _111) capacitor c=2.7192e-16 m=1
+\+1216 (_108 _110) capacitor c=4.5696e-16 m=1
+\+1215 (_108 _109) capacitor c=4.5696e-16 m=1
+\+1214 (_105 _136) capacitor c=2.7192e-16 m=1
+\+1213 (_105 _135) capacitor c=3.1776e-16 m=1
+\+1212 (_105 _134) capacitor c=4.5696e-16 m=1
+\+1211 (_105 _133) capacitor c=6.3552e-16 m=1
+\+1210 (_105 _132) capacitor c=4.5696e-16 m=1
+\+1199 (_105 _120) capacitor c=7.38945e-16 m=1
+\+1197 (_105 _118) capacitor c=7.38945e-16 m=1
+\+1186 (_105 _106) capacitor c=7.38945e-16 m=1
+\+1185 (_104 _108) capacitor c=3.1776e-16 m=1
+\+1183 (_93 _96) capacitor c=2.7192e-16 m=1
+\+1182 (_93 _95) capacitor c=4.5696e-16 m=1
+\+1181 (_93 _94) capacitor c=4.5696e-16 m=1
+\+1168 (_90 _120) capacitor c=2.7192e-16 m=1
+\+1167 (_90 _119) capacitor c=3.1776e-16 m=1
+\+1166 (_90 _118) capacitor c=4.5696e-16 m=1
+\+1140 (_89 _93) capacitor c=3.1776e-16 m=1
+\+1138 (_78 _81) capacitor c=2.7192e-16 m=1
+\+1137 (_78 _80) capacitor c=4.5696e-16 m=1
+\+1136 (_78 _79) capacitor c=4.5696e-16 m=1
+\+1135 (_75 _106) capacitor c=2.7192e-16 m=1
+\+1134 (_75 _105) capacitor c=6.3552e-16 m=1
+\+1133 (_75 _104) capacitor c=3.1776e-16 m=1
+\+1132 (_75 _103) capacitor c=4.5696e-16 m=1
+\+1121 (_75 _91) capacitor c=7.38945e-16 m=1
+\+1118 (_75 _88) capacitor c=7.38945e-16 m=1
+\+1107 (_75 _76) capacitor c=7.38945e-16 m=1
+\+1106 (_74 _78) capacitor c=3.1776e-16 m=1
+\+1104 (_63 _66) capacitor c=2.7192e-16 m=1
+\+1103 (_63 _65) capacitor c=4.5696e-16 m=1
+\+1102 (_63 _64) capacitor c=4.5696e-16 m=1
+\+1089 (_60 _91) capacitor c=2.7192e-16 m=1
+\+1087 (_60 _89) capacitor c=3.1776e-16 m=1
+\+1086 (_60 _88) capacitor c=4.5696e-16 m=1
+\+1060 (_59 _63) capacitor c=3.1776e-16 m=1
+\+1058 (_48 _51) capacitor c=2.7192e-16 m=1
+\+1057 (_48 _50) capacitor c=4.5696e-16 m=1
+\+1056 (_48 _49) capacitor c=4.5696e-16 m=1
+\+1055 (_45 _76) capacitor c=2.7192e-16 m=1
+\+1054 (_45 _75) capacitor c=6.3552e-16 m=1
+\+1053 (_45 _74) capacitor c=3.1776e-16 m=1
+\+1052 (_45 _73) capacitor c=4.5696e-16 m=1
+\+1041 (_45 _61) capacitor c=7.38945e-16 m=1
+\+1038 (_45 _58) capacitor c=7.38945e-16 m=1
+\+1030 (_45 _49) capacitor c=7.38945e-16 m=1
+\+1027 (_45 _46) capacitor c=7.38945e-16 m=1
+\+1026 (_44 _48) capacitor c=3.1776e-16 m=1
+\+960 (_42 _60) capacitor c=3.1776e-16 m=1
+\+948 (_42 _46) capacitor c=2.7192e-16 m=1
+\+946 (_42 _44) capacitor c=9.5328e-16 m=1
+\+945 (_42 _43) capacitor c=4.5696e-16 m=1
+\+944 (_32 _35) capacitor c=2.7192e-16 m=1
+\+943 (_32 _34) capacitor c=4.5696e-16 m=1
+\+942 (_32 _33) capacitor c=4.5696e-16 m=1
+\+929 (_29 _61) capacitor c=2.7192e-16 m=1
+\+927 (_29 _59) capacitor c=3.1776e-16 m=1
+\+926 (_29 _58) capacitor c=4.5696e-16 m=1
+\+899 (_28 _32) capacitor c=3.1776e-16 m=1
+\+857 (_26 _90) capacitor c=6.4038e-16 m=1
+\+855 (_25 _30) capacitor c=4.1421e-16 m=1
+\+852 (_25 _27) capacitor c=7.3605e-16 m=1
+\+850 (_24 _25) capacitor c=2.0112e-16 m=1
+\+849 (_23 _138) capacitor c=1.40573e-15 m=1
+\+847 (_23 _122) capacitor c=1.40573e-15 m=1
+\+846 (_23 _108) capacitor c=1.40573e-15 m=1
+\+844 (_23 _93) capacitor c=1.40572e-15 m=1
+\+843 (_23 _90) capacitor c=1.23393e-15 m=1
+\+842 (_23 _78) capacitor c=1.40573e-15 m=1
+\+841 (_23 _75) capacitor c=1.3119e-14 m=1
+\+840 (_23 _63) capacitor c=1.40572e-15 m=1
+\+839 (_23 _60) capacitor c=1.23393e-15 m=1
+\+838 (_23 _48) capacitor c=1.40572e-15 m=1
+\+835 (_23 _32) capacitor c=1.40572e-15 m=1
+\+834 (_23 _29) capacitor c=1.23393e-15 m=1
+\+832 (S2 _138) capacitor c=2.9067e-16 m=1
+\+784 (S2 _63) capacitor c=4.1139e-16 m=1
+\+783 (S2 _60) capacitor c=1.06764e-15 m=1
+\+774 (S2 _48) capacitor c=4.1139e-16 m=1
+\+763 (S2 _32) capacitor c=4.1139e-16 m=1
+\+748 (S0 _105) capacitor c=2.9067e-16 m=1
+\+695 (CLK _88) capacitor c=5.1252e-16 m=1
+\+644 (CLK _32) capacitor c=3.7008e-16 m=1
+\+622 (X3 _75) capacitor c=5.028e-16 m=1
+\+621 (X3 _60) capacitor c=5.1252e-16 m=1
+\+620 (X3 _42) capacitor c=5.028e-16 m=1
+\+619 (X3 S2) capacitor c=5.1252e-16 m=1
+\+618 (X3 CLK) capacitor c=9.4086e-16 m=1
+\+594 (D7 _27) capacitor c=2.7192e-16 m=1
+\+593 (D7 _26) capacitor c=3.1776e-16 m=1
+\+591 (D7 _24) capacitor c=1.8504e-16 m=1
+\+590 (D7 _23) capacitor c=7.32953e-16 m=1
+\+589 (D7 S1) capacitor c=2.87205e-16 m=1
+\+588 (D6 _42) capacitor c=3.1776e-16 m=1
+\+584 (D5 _29) capacitor c=3.1776e-16 m=1
+\+581 (D4 _45) capacitor c=3.1776e-16 m=1
+\+578 (D3 _60) capacitor c=3.1776e-16 m=1
+\+575 (D2 _75) capacitor c=3.1776e-16 m=1
+\+572 (D1 _90) capacitor c=3.1776e-16 m=1
+\+569 (D0 _105) capacitor c=6.3552e-16 m=1
+\+554 (S0 _128) capacitor c=1.7808e-16 m=1
+\+551 (S0 _125) capacitor c=3.048e-16 m=1
+\+550 (S0 _124) capacitor c=3.4932e-16 m=1
+\+549 (S0 _123) capacitor c=3.18435e-16 m=1
+\+548 (S0 _122) capacitor c=2.424e-16 m=1
+\+546 (S0 _120) capacitor c=3.18435e-16 m=1
+\+544 (S0 _118) capacitor c=3.18435e-16 m=1
+\+541 (S0 _114) capacitor c=1.7808e-16 m=1
+\+539 (S0 _112) capacitor c=2.1576e-16 m=1
+\+536 (S0 _109) capacitor c=3.18435e-16 m=1
+\+535 (S0 _108) capacitor c=2.424e-16 m=1
+\+534 (S0 _107) capacitor c=3.0672e-16 m=1
+\+533 (S0 _106) capacitor c=3.18435e-16 m=1
+\+532 (S0 _105) capacitor c=2.58556e-14 m=1
+\+530 (S0 _103) capacitor c=6.2925e-16 m=1
+\+529 (S0 _102) capacitor c=2.424e-16 m=1
+\+525 (S0 _97) capacitor c=2.1576e-16 m=1
+\+522 (S0 _94) capacitor c=3.18435e-16 m=1
+\+521 (S0 _93) capacitor c=2.424e-16 m=1
+\+519 (S0 _91) capacitor c=3.18435e-16 m=1
+\+517 (S0 _89) capacitor c=3.0672e-16 m=1
+\+516 (S0 _88) capacitor c=3.18435e-16 m=1
+\+514 (S0 _85) capacitor c=3.048e-16 m=1
+\+513 (S0 _84) capacitor c=1.7808e-16 m=1
+\+511 (S0 _82) capacitor c=2.1576e-16 m=1
+\+509 (S0 _80) capacitor c=3.4932e-16 m=1
+\+508 (S0 _79) capacitor c=3.18435e-16 m=1
+\+505 (S0 _76) capacitor c=3.18435e-16 m=1
+\+502 (S0 _73) capacitor c=6.2925e-16 m=1
+\+499 (S0 _69) capacitor c=1.7808e-16 m=1
+\+498 (S0 _68) capacitor c=3.048e-16 m=1
+\+497 (S0 _67) capacitor c=2.1576e-16 m=1
+\+496 (S0 _66) capacitor c=3.048e-16 m=1
+\+494 (S0 _64) capacitor c=3.18435e-16 m=1
+\+493 (S0 _63) capacitor c=2.424e-16 m=1
+\+491 (S0 _61) capacitor c=3.18435e-16 m=1
+\+490 (S0 _60) capacitor c=5.5692e-16 m=1
+\+488 (S0 _58) capacitor c=3.18435e-16 m=1
+\+487 (S0 _57) capacitor c=2.424e-16 m=1
+\+481 (S0 _50) capacitor c=3.4932e-16 m=1
+\+478 (S0 _47) capacitor c=3.0672e-16 m=1
+\+477 (S0 _46) capacitor c=3.18435e-16 m=1
+\+474 (S0 _43) capacitor c=6.2925e-16 m=1
+\+473 (S0 _42) capacitor c=5.2308e-16 m=1
+\+462 (S0 _30) capacitor c=4.6173e-16 m=1
+\+459 (S0 _27) capacitor c=3.1935e-16 m=1
+\+456 (S0 _24) capacitor c=5.3391e-16 m=1
+\+455 (S0 _23) capacitor c=2.9129e-14 m=1
+\+452 (CLK S0) capacitor c=7.1736e-16 m=1
+\+451 (X6 S0) capacitor c=2.0964e-16 m=1
+\+450 (X5 S0) capacitor c=2.0964e-16 m=1
+\+449 (X4 S0) capacitor c=2.0964e-16 m=1
+\+448 (X3 S0) capacitor c=2.0964e-16 m=1
+\+446 (X2 S0) capacitor c=2.0964e-16 m=1
+\+445 (X1 S0) capacitor c=2.0964e-16 m=1
+\+443 (D7 S0) capacitor c=4.2624e-16 m=1
+\+441 (D5 S0) capacitor c=1.5336e-16 m=1
+\+439 (D3 S0) capacitor c=1.5336e-16 m=1
+\+437 (D1 S0) capacitor c=1.5336e-16 m=1
+\+436 (D0 _132) capacitor c=8.904e-17 m=1
+\+435 (D0 _105) capacitor c=3.222e-16 m=1
+\+428 (RESET S0) capacitor c=2.7972e-15 m=1
+\+1912 (_23 _81) capacitor c=2.77884e-15 m=1
+\+1911 (_23 _80) capacitor c=1.674e-15 m=1
+\+1910 (_23 _79) capacitor c=6.6123e-16 m=1
+\+1908 (_23 _76) capacitor c=6.6123e-16 m=1
+\+1906 (_23 _73) capacitor c=6.6123e-16 m=1
+\+1903 (_23 _69) capacitor c=9.7929e-16 m=1
+\+1899 (_23 _65) capacitor c=1.674e-15 m=1
+\+1896 (_23 _61) capacitor c=6.6123e-16 m=1
+\+1891 (_23 _54) capacitor c=9.7929e-16 m=1
+\+1886 (_23 _49) capacitor c=6.6123e-16 m=1
+\+1884 (_23 _46) capacitor c=6.6123e-16 m=1
+\+1882 (_23 _43) capacitor c=6.6123e-16 m=1
+\+1879 (_23 _38) capacitor c=9.7929e-16 m=1
+\+1876 (_23 _35) capacitor c=2.77884e-15 m=1
+\+1874 (_23 _33) capacitor c=6.6123e-16 m=1
+\+1758 (X1 _23) capacitor c=6.0264e-16 m=1
+\+1701 (_86 _87) capacitor c=2.217e-16 m=1
+\+1698 (_81 _86) capacitor c=2.7e-16 m=1
+\+1695 (_80 _85) capacitor c=3.59175e-16 m=1
+\+1694 (_78 _81) capacitor c=2.217e-16 m=1
+\+1688 (_71 _72) capacitor c=2.217e-16 m=1
+\+1686 (_67 _68) capacitor c=4.434e-16 m=1
+\+1685 (_66 _71) capacitor c=2.7e-16 m=1
+\+1682 (_65 _70) capacitor c=3.59175e-16 m=1
+\+1681 (_63 _66) capacitor c=2.217e-16 m=1
+\+1675 (_56 _57) capacitor c=2.217e-16 m=1
+\+1673 (_52 _53) capacitor c=4.434e-16 m=1
+\+1672 (_51 _56) capacitor c=2.7e-16 m=1
+\+1669 (_50 _55) capacitor c=3.59175e-16 m=1
+\+1668 (_48 _51) capacitor c=2.217e-16 m=1
+\+1661 (_40 _41) capacitor c=2.217e-16 m=1
+\+1659 (_36 _37) capacitor c=4.434e-16 m=1
+\+1658 (_35 _40) capacitor c=2.7e-16 m=1
+\+1655 (_34 _39) capacitor c=3.59175e-16 m=1
+\+1654 (_32 _35) capacitor c=2.217e-16 m=1
+\+1585 (_23 _86) capacitor c=1.23672e-15 m=1
+\+1583 (_23 _84) capacitor c=1.1832e-16 m=1
+\+1582 (_23 _83) capacitor c=2.1675e-15 m=1
+\+1579 (_23 _80) capacitor c=2.32806e-15 m=1
+\+1573 (_23 _74) capacitor c=2.7729e-15 m=1
+\+1570 (_23 _71) capacitor c=1.23672e-15 m=1
+\+1568 (_23 _69) capacitor c=1.1832e-16 m=1
+\+1567 (_23 _68) capacitor c=2.1675e-15 m=1
+\+1565 (_23 _66) capacitor c=3.62436e-15 m=1
+\+1561 (_23 _62) capacitor c=3.39408e-15 m=1
+\+1555 (_23 _56) capacitor c=1.23672e-15 m=1
+\+1553 (_23 _54) capacitor c=1.1832e-16 m=1
+\+1552 (_23 _53) capacitor c=2.1675e-15 m=1
+\+1550 (_23 _51) capacitor c=3.62436e-15 m=1
+\+1543 (_23 _44) capacitor c=2.7729e-15 m=1
+\+1539 (_23 _40) capacitor c=1.23672e-15 m=1
+\+1537 (_23 _38) capacitor c=1.1832e-16 m=1
+\+1536 (_23 _37) capacitor c=2.1675e-15 m=1
+\+1533 (_23 _34) capacitor c=2.32806e-15 m=1
+\+1530 (_23 _31) capacitor c=3.39408e-15 m=1
+\+1513 (S2 _74) capacitor c=5.4e-16 m=1
+\+1511 (S2 _59) capacitor c=5.4e-16 m=1
+\+1507 (S2 _28) capacitor c=5.4e-16 m=1
+\+1488 (S1 _77) capacitor c=2.217e-16 m=1
+\+1485 (S1 _74) capacitor c=2.7e-16 m=1
+\+1483 (S1 _62) capacitor c=2.217e-16 m=1
+\+1480 (S1 _59) capacitor c=2.7e-16 m=1
+\+1478 (S1 _47) capacitor c=2.217e-16 m=1
+\+1475 (S1 _44) capacitor c=2.7e-16 m=1
+\+1472 (S1 _31) capacitor c=2.217e-16 m=1
+\+1469 (S1 _28) capacitor c=2.7e-16 m=1
+\+1456 (CLK _80) capacitor c=2.7e-16 m=1
+\+1455 (CLK _65) capacitor c=2.7e-16 m=1
+\+1454 (CLK _50) capacitor c=2.7e-16 m=1
+\+1453 (CLK _34) capacitor c=2.7e-16 m=1
+\+1312 (X1 _23) capacitor c=1.83396e-15 m=1
+\+1250 (RESET _86) capacitor c=2.217e-16 m=1
+\+1247 (RESET _83) capacitor c=6.651e-16 m=1
+\+1245 (RESET _71) capacitor c=2.217e-16 m=1
+\+1240 (RESET _56) capacitor c=2.217e-16 m=1
+\+1237 (RESET _53) capacitor c=6.651e-16 m=1
+\+1235 (RESET _40) capacitor c=2.217e-16 m=1
+\+1021 (_42 _157) capacitor c=2.5515e-17 m=1
+\+1020 (_42 _154) capacitor c=2.5515e-17 m=1
+\+1019 (_42 _151) capacitor c=2.5515e-17 m=1
+\+982 (_42 _87) capacitor c=6.91485e-16 m=1
+\+981 (_42 _86) capacitor c=9.28665e-16 m=1
+\+980 (_42 _85) capacitor c=8.11845e-16 m=1
+\+979 (_42 _84) capacitor c=9.25485e-16 m=1
+\+978 (_42 _83) capacitor c=6.9081e-16 m=1
+\+977 (_42 _82) capacitor c=5.02125e-16 m=1
+\+976 (_42 _81) capacitor c=7.506e-16 m=1
+\+975 (_42 _80) capacitor c=1.36551e-15 m=1
+\+974 (_42 _78) capacitor c=1.8504e-16 m=1
+\+973 (_42 _77) capacitor c=5.4384e-16 m=1
+\+971 (_42 _74) capacitor c=6.3552e-16 m=1
+\+970 (_42 _72) capacitor c=6.91485e-16 m=1
+\+969 (_42 _71) capacitor c=9.28665e-16 m=1
+\+968 (_42 _70) capacitor c=8.11845e-16 m=1
+\+967 (_42 _69) capacitor c=9.25485e-16 m=1
+\+966 (_42 _68) capacitor c=6.9081e-16 m=1
+\+965 (_42 _67) capacitor c=5.02125e-16 m=1
+\+964 (_42 _66) capacitor c=7.506e-16 m=1
+\+963 (_42 _65) capacitor c=1.36551e-15 m=1
+\+962 (_42 _63) capacitor c=1.8504e-16 m=1
+\+961 (_42 _62) capacitor c=5.4384e-16 m=1
+\+959 (_42 _59) capacitor c=6.3552e-16 m=1
+\+958 (_42 _57) capacitor c=6.91485e-16 m=1
+\+957 (_42 _56) capacitor c=9.28665e-16 m=1
+\+956 (_42 _55) capacitor c=8.11845e-16 m=1
+\+955 (_42 _54) capacitor c=9.25485e-16 m=1
+\+954 (_42 _53) capacitor c=6.9081e-16 m=1
+\+953 (_42 _52) capacitor c=5.02125e-16 m=1
+\+952 (_42 _51) capacitor c=7.506e-16 m=1
+\+951 (_42 _50) capacitor c=1.36551e-15 m=1
+\+950 (_42 _48) capacitor c=1.8504e-16 m=1
+\+949 (_42 _47) capacitor c=5.4384e-16 m=1
+\+947 (_42 _45) capacitor c=9.5328e-16 m=1
+\+762 (S2 _29) capacitor c=1.06764e-15 m=1
+\+753 (S1 _42) capacitor c=1.29797e-14 m=1
+\+685 (CLK _77) capacitor c=6.6468e-16 m=1
+\+671 (CLK _62) capacitor c=6.6468e-16 m=1
+\+667 (CLK _58) capacitor c=5.1252e-16 m=1
+\+663 (CLK _53) capacitor c=9.4254e-16 m=1
+\+657 (CLK _47) capacitor c=6.6468e-16 m=1
+\+648 (CLK _37) capacitor c=9.4254e-16 m=1
+\+643 (CLK _29) capacitor c=1.01532e-15 m=1
+\+639 (CLK S1) capacitor c=5.18112e-15 m=1
+\+605 (X2 _42) capacitor c=5.028e-16 m=1
+\+601 (X1 _42) capacitor c=5.028e-16 m=1
+\+598 (X1 CLK) capacitor c=9.4086e-16 m=1
+\+561 (RESET _42) capacitor c=2.22048e-15 m=1
+\+1890 (_23 _53) capacitor c=1.07136e-15 m=1
+\+1889 (_23 _52) capacitor c=5.3568e-16 m=1
+\+1888 (_23 _51) capacitor c=2.77884e-15 m=1
+\+1885 (_23 _48) capacitor c=4.6872e-16 m=1
+\+1883 (_23 _44) capacitor c=1.40616e-15 m=1
+\+1878 (_23 _37) capacitor c=1.07136e-15 m=1
+\+1871 (_23 _28) capacitor c=1.40616e-15 m=1
+\+1756 (X0 _23) capacitor c=6.0264e-16 m=1
+\+1549 (_23 _50) capacitor c=2.32806e-15 m=1
+\+781 (S2 _57) capacitor c=3.7008e-16 m=1
+\+780 (S2 _55) capacitor c=3.0576e-16 m=1
+\+779 (S2 _54) capacitor c=1.2072e-16 m=1
+\+778 (S2 _53) capacitor c=2.4144e-16 m=1
+\+777 (S2 _52) capacitor c=1.2072e-16 m=1
+\+776 (S2 _51) capacitor c=8.826e-16 m=1
+\+775 (S2 _50) capacitor c=9.0996e-16 m=1
+\+772 (S2 _44) capacitor c=2.72592e-15 m=1
+\+771 (S2 _42) capacitor c=5.58636e-15 m=1
+\+770 (S2 _41) capacitor c=3.7008e-16 m=1
+\+769 (S2 _39) capacitor c=3.0576e-16 m=1
+\+768 (S2 _38) capacitor c=1.2072e-16 m=1
+\+767 (S2 _37) capacitor c=2.4144e-16 m=1
+\+766 (S2 _36) capacitor c=1.2072e-16 m=1
+\+765 (S2 _35) capacitor c=8.826e-16 m=1
+\+764 (S2 _34) capacitor c=9.0996e-16 m=1
+\+599 (X1 S2) capacitor c=5.1252e-16 m=1
+\+596 (X0 S2) capacitor c=5.1252e-16 m=1
+\+558 (RESET S2) capacitor c=1.69008e-15 m=1
+\+1880 (_23 _39) capacitor c=1.07136e-15 m=1
+\+1674 (_55 _57) capacitor c=2.217e-16 m=1
+\+1671 (_51 _55) capacitor c=2.217e-16 m=1
+\+1670 (_51 _52) capacitor c=2.217e-16 m=1
+\+1660 (_39 _41) capacitor c=2.217e-16 m=1
+\+1657 (_35 _39) capacitor c=2.217e-16 m=1
+\+1656 (_35 _36) capacitor c=2.217e-16 m=1
+\+1556 (_23 _57) capacitor c=1.42728e-15 m=1
+\+1554 (_23 _55) capacitor c=2.69085e-15 m=1
+\+1538 (_23 _39) capacitor c=2.69085e-15 m=1
+\+1535 (_23 _36) capacitor c=1.6776e-15 m=1
+\+1314 (X1 _55) capacitor c=2.7e-16 m=1
+\+1309 (X0 _39) capacitor c=2.7e-16 m=1
+\+1308 (X0 _23) capacitor c=1.83396e-15 m=1
+\+666 (CLK _57) capacitor c=5.832e-16 m=1
+\+665 (CLK _55) capacitor c=1.95543e-15 m=1
+\+664 (CLK _54) capacitor c=1.8504e-16 m=1
+\+662 (CLK _52) capacitor c=4.5696e-16 m=1
+\+661 (CLK _51) capacitor c=9.8076e-16 m=1
+\+660 (CLK _50) capacitor c=6.8826e-16 m=1
+\+659 (CLK _49) capacitor c=5.1252e-16 m=1
+\+658 (CLK _48) capacitor c=7.0728e-16 m=1
+\+656 (CLK _46) capacitor c=5.1252e-16 m=1
+\+655 (CLK _45) capacitor c=1.3428e-15 m=1
+\+654 (CLK _44) capacitor c=6.6468e-16 m=1
+\+653 (CLK _43) capacitor c=5.1252e-16 m=1
+\+651 (CLK _41) capacitor c=5.832e-16 m=1
+\+650 (CLK _39) capacitor c=1.95543e-15 m=1
+\+649 (CLK _38) capacitor c=1.8504e-16 m=1
+\+647 (CLK _36) capacitor c=4.5696e-16 m=1
+\+646 (CLK _35) capacitor c=9.8076e-16 m=1
+\+645 (CLK _34) capacitor c=4.1634e-16 m=1
+\+595 (X0 CLK) capacitor c=9.4086e-16 m=1
+\+586 (D6 CLK) capacitor c=3.2748e-16 m=1
+\+1917 (_23 _87) capacitor c=1.35594e-15 m=1
+\+1915 (_23 _84) capacitor c=9.7929e-16 m=1
+\+1914 (_23 _83) capacitor c=1.07136e-15 m=1
+\+1907 (_23 _74) capacitor c=1.40616e-15 m=1
+\+1905 (_23 _72) capacitor c=1.35594e-15 m=1
+\+1902 (_23 _68) capacitor c=1.07136e-15 m=1
+\+1901 (_23 _67) capacitor c=5.3568e-16 m=1
+\+1895 (_23 _59) capacitor c=1.40616e-15 m=1
+\+1760 (X2 _23) capacitor c=6.0264e-16 m=1
+\+1564 (_23 _65) capacitor c=2.32806e-15 m=1
+\+801 (S2 _87) capacitor c=3.7008e-16 m=1
+\+800 (S2 _85) capacitor c=3.0576e-16 m=1
+\+799 (S2 _84) capacitor c=1.2072e-16 m=1
+\+798 (S2 _83) capacitor c=2.4144e-16 m=1
+\+797 (S2 _82) capacitor c=1.2072e-16 m=1
+\+796 (S2 _81) capacitor c=8.826e-16 m=1
+\+795 (S2 _80) capacitor c=9.0996e-16 m=1
+\+794 (S2 _78) capacitor c=4.1139e-16 m=1
+\+792 (S2 _74) capacitor c=2.72592e-15 m=1
+\+791 (S2 _72) capacitor c=3.7008e-16 m=1
+\+790 (S2 _70) capacitor c=3.0576e-16 m=1
+\+789 (S2 _69) capacitor c=1.2072e-16 m=1
+\+788 (S2 _68) capacitor c=2.4144e-16 m=1
+\+787 (S2 _67) capacitor c=1.2072e-16 m=1
+\+786 (S2 _66) capacitor c=8.826e-16 m=1
+\+785 (S2 _65) capacitor c=9.0996e-16 m=1
+\+782 (S2 _59) capacitor c=2.72592e-15 m=1
+\+760 (S2 _23) capacitor c=8.06092e-14 m=1
+\+749 (S1 S2) capacitor c=1.29528e-15 m=1
+\+640 (CLK S2) capacitor c=3.88584e-15 m=1
+\+604 (X2 S2) capacitor c=5.1252e-16 m=1
+\+1904 (_23 _70) capacitor c=1.07136e-15 m=1
+\+1700 (_85 _87) capacitor c=2.217e-16 m=1
+\+1697 (_81 _85) capacitor c=2.217e-16 m=1
+\+1696 (_81 _82) capacitor c=2.217e-16 m=1
+\+1687 (_70 _72) capacitor c=2.217e-16 m=1
+\+1684 (_66 _70) capacitor c=2.217e-16 m=1
+\+1683 (_66 _67) capacitor c=2.217e-16 m=1
+\+1584 (_23 _85) capacitor c=2.69085e-15 m=1
+\+1571 (_23 _72) capacitor c=1.42728e-15 m=1
+\+1569 (_23 _70) capacitor c=2.69085e-15 m=1
+\+1318 (X2 _70) capacitor c=2.7e-16 m=1
+\+1316 (X2 _23) capacitor c=1.83396e-15 m=1
+\+1244 (RESET _70) capacitor c=5.1585e-16 m=1
+\+694 (CLK _87) capacitor c=5.832e-16 m=1
+\+693 (CLK _85) capacitor c=1.95543e-15 m=1
+\+692 (CLK _84) capacitor c=1.8504e-16 m=1
+\+691 (CLK _83) capacitor c=9.4254e-16 m=1
+\+690 (CLK _82) capacitor c=4.5696e-16 m=1
+\+689 (CLK _81) capacitor c=9.8076e-16 m=1
+\+688 (CLK _80) capacitor c=6.8826e-16 m=1
+\+687 (CLK _79) capacitor c=5.1252e-16 m=1
+\+686 (CLK _78) capacitor c=7.0728e-16 m=1
+\+684 (CLK _76) capacitor c=5.1252e-16 m=1
+\+683 (CLK _75) capacitor c=1.3428e-15 m=1
+\+682 (CLK _74) capacitor c=6.6468e-16 m=1
+\+681 (CLK _73) capacitor c=5.1252e-16 m=1
+\+680 (CLK _72) capacitor c=5.832e-16 m=1
+\+679 (CLK _70) capacitor c=1.95543e-15 m=1
+\+678 (CLK _69) capacitor c=1.8504e-16 m=1
+\+677 (CLK _68) capacitor c=9.4254e-16 m=1
+\+676 (CLK _67) capacitor c=4.5696e-16 m=1
+\+675 (CLK _66) capacitor c=9.8076e-16 m=1
+\+674 (CLK _65) capacitor c=6.8826e-16 m=1
+\+673 (CLK _64) capacitor c=5.1252e-16 m=1
+\+672 (CLK _63) capacitor c=7.0728e-16 m=1
+\+670 (CLK _61) capacitor c=5.1252e-16 m=1
+\+669 (CLK _60) capacitor c=1.3428e-15 m=1
+\+668 (CLK _59) capacitor c=6.6468e-16 m=1
+\+641 (CLK _23) capacitor c=4.32101e-14 m=1
+\+603 (X2 CLK) capacitor c=9.4086e-16 m=1
+\+583 (D5 CLK) capacitor c=3.2748e-16 m=1
+\+580 (D4 CLK) capacitor c=3.2748e-16 m=1
+\+1814 (vdd! _87) capacitor c=1.3392e-16 m=1
+\+1812 (vdd! _84) capacitor c=3.7665e-16 m=1
+\+1811 (vdd! _83) capacitor c=2.6784e-16 m=1
+\+1810 (vdd! _82) capacitor c=1.3392e-16 m=1
+\+1809 (vdd! _81) capacitor c=2.6784e-16 m=1
+\+1808 (vdd! _80) capacitor c=2.27664e-15 m=1
+\+1806 (vdd! _78) capacitor c=1.3392e-16 m=1
+\+1805 (vdd! _76) capacitor c=1.3392e-16 m=1
+\+1803 (vdd! _72) capacitor c=1.3392e-16 m=1
+\+1802 (vdd! _70) capacitor c=6.696e-16 m=1
+\+1801 (vdd! _69) capacitor c=3.7665e-16 m=1
+\+1800 (vdd! _68) capacitor c=2.6784e-16 m=1
+\+1799 (vdd! _67) capacitor c=1.3392e-16 m=1
+\+1798 (vdd! _66) capacitor c=2.6784e-16 m=1
+\+1797 (vdd! _65) capacitor c=2.27664e-15 m=1
+\+1795 (vdd! _63) capacitor c=1.3392e-16 m=1
+\+1792 (vdd! _57) capacitor c=1.3392e-16 m=1
+\+1791 (vdd! _55) capacitor c=6.696e-16 m=1
+\+1790 (vdd! _54) capacitor c=3.7665e-16 m=1
+\+1789 (vdd! _53) capacitor c=2.6784e-16 m=1
+\+1788 (vdd! _52) capacitor c=1.3392e-16 m=1
+\+1787 (vdd! _51) capacitor c=2.6784e-16 m=1
+\+1786 (vdd! _50) capacitor c=2.27664e-15 m=1
+\+1785 (vdd! _49) capacitor c=1.3392e-16 m=1
+\+1784 (vdd! _48) capacitor c=1.3392e-16 m=1
+\+1782 (vdd! _43) capacitor c=1.3392e-16 m=1
+\+1781 (vdd! _41) capacitor c=1.3392e-16 m=1
+\+1780 (vdd! _39) capacitor c=6.696e-16 m=1
+\+1779 (vdd! _38) capacitor c=3.7665e-16 m=1
+\+1778 (vdd! _37) capacitor c=2.6784e-16 m=1
+\+1777 (vdd! _36) capacitor c=1.3392e-16 m=1
+\+1776 (vdd! _35) capacitor c=2.6784e-16 m=1
+\+1775 (vdd! _34) capacitor c=2.27664e-15 m=1
+\+1774 (vdd! _33) capacitor c=1.3392e-16 m=1
+\+1773 (vdd! _32) capacitor c=1.3392e-16 m=1
+\+1759 (X2 vdd!) capacitor c=1.3392e-16 m=1
+\+1757 (X1 vdd!) capacitor c=1.3392e-16 m=1
+\+1755 (X0 vdd!) capacitor c=1.3392e-16 m=1
+\+1514 (S2 _79) capacitor c=2.217e-16 m=1
+\+1512 (S2 _64) capacitor c=2.217e-16 m=1
+\+1510 (S2 _49) capacitor c=2.217e-16 m=1
+\+1509 (S2 _44) capacitor c=5.4e-16 m=1
+\+1508 (S2 _33) capacitor c=2.217e-16 m=1
+\+1487 (S1 _76) capacitor c=2.217e-16 m=1
+\+1484 (S1 _73) capacitor c=2.217e-16 m=1
+\+1482 (S1 _61) capacitor c=2.217e-16 m=1
+\+1479 (S1 _58) capacitor c=2.217e-16 m=1
+\+1477 (S1 _46) capacitor c=2.217e-16 m=1
+\+1476 (S1 _45) capacitor c=2.7e-16 m=1
+\+1474 (S1 _43) capacitor c=2.217e-16 m=1
+\+1473 (S1 _42) capacitor c=2.7e-16 m=1
+\+1471 (S1 _30) capacitor c=2.217e-16 m=1
+\+1470 (S1 _29) capacitor c=2.7e-16 m=1
+\+1468 (S1 _27) capacitor c=2.217e-16 m=1
+\+1467 (S1 _25) capacitor c=2.7e-16 m=1
+\+1464 (S0 _24) capacitor c=2.217e-16 m=1
+\+1384 (vdd! _87) capacitor c=4.4736e-16 m=1
+\+1383 (vdd! _85) capacitor c=1.47258e-15 m=1
+\+1382 (vdd! _84) capacitor c=1.71e-16 m=1
+\+1381 (vdd! _83) capacitor c=4.0482e-16 m=1
+\+1380 (vdd! _82) capacitor c=4.0482e-16 m=1
+\+1379 (vdd! _81) capacitor c=4.0482e-16 m=1
+\+1378 (vdd! _80) capacitor c=5.65062e-15 m=1
+\+1377 (vdd! _79) capacitor c=2.9298e-16 m=1
+\+1376 (vdd! _78) capacitor c=4.4736e-16 m=1
+\+1375 (vdd! _77) capacitor c=8.9472e-16 m=1
+\+1374 (vdd! _76) capacitor c=2.9298e-16 m=1
+\+1372 (vdd! _74) capacitor c=7.764e-16 m=1
+\+1371 (vdd! _73) capacitor c=2.9298e-16 m=1
+\+1370 (vdd! _72) capacitor c=4.4736e-16 m=1
+\+1369 (vdd! _70) capacitor c=1.47258e-15 m=1
+\+1368 (vdd! _69) capacitor c=1.71e-16 m=1
+\+1367 (vdd! _68) capacitor c=4.0482e-16 m=1
+\+1366 (vdd! _67) capacitor c=4.0482e-16 m=1
+\+1365 (vdd! _66) capacitor c=4.0482e-16 m=1
+\+1364 (vdd! _65) capacitor c=5.65062e-15 m=1
+\+1363 (vdd! _64) capacitor c=2.9298e-16 m=1
+\+1362 (vdd! _63) capacitor c=4.4736e-16 m=1
+\+1361 (vdd! _62) capacitor c=8.9472e-16 m=1
+\+1360 (vdd! _61) capacitor c=2.9298e-16 m=1
+\+1359 (vdd! _60) capacitor c=1.22376e-15 m=1
+\+1358 (vdd! _59) capacitor c=7.764e-16 m=1
+\+1357 (vdd! _58) capacitor c=2.9298e-16 m=1
+\+1356 (vdd! _57) capacitor c=4.4736e-16 m=1
+\+1355 (vdd! _55) capacitor c=1.47258e-15 m=1
+\+1354 (vdd! _54) capacitor c=1.71e-16 m=1
+\+1353 (vdd! _53) capacitor c=4.0482e-16 m=1
+\+1352 (vdd! _52) capacitor c=4.0482e-16 m=1
+\+1351 (vdd! _51) capacitor c=4.0482e-16 m=1
+\+1350 (vdd! _50) capacitor c=5.65062e-15 m=1
+\+1349 (vdd! _49) capacitor c=2.9298e-16 m=1
+\+1348 (vdd! _48) capacitor c=4.4736e-16 m=1
+\+1347 (vdd! _47) capacitor c=8.9472e-16 m=1
+\+1346 (vdd! _46) capacitor c=2.9298e-16 m=1
+\+1345 (vdd! _45) capacitor c=1.22376e-15 m=1
+\+1344 (vdd! _44) capacitor c=7.764e-16 m=1
+\+1343 (vdd! _43) capacitor c=2.9298e-16 m=1
+\+1342 (vdd! _42) capacitor c=1.22376e-15 m=1
+\+1341 (vdd! _41) capacitor c=4.4736e-16 m=1
+\+1340 (vdd! _39) capacitor c=1.47258e-15 m=1
+\+1339 (vdd! _38) capacitor c=1.71e-16 m=1
+\+1338 (vdd! _37) capacitor c=4.0482e-16 m=1
+\+1337 (vdd! _36) capacitor c=4.0482e-16 m=1
+\+1336 (vdd! _35) capacitor c=4.0482e-16 m=1
+\+1335 (vdd! _34) capacitor c=5.65062e-15 m=1
+\+1334 (vdd! _33) capacitor c=2.9298e-16 m=1
+\+1333 (vdd! _32) capacitor c=4.4736e-16 m=1
+\+1332 (vdd! _31) capacitor c=8.9472e-16 m=1
+\+1331 (vdd! _30) capacitor c=2.9298e-16 m=1
+\+1330 (vdd! _29) capacitor c=1.22376e-15 m=1
+\+1329 (vdd! _28) capacitor c=7.764e-16 m=1
+\+1328 (vdd! _27) capacitor c=2.9298e-16 m=1
+\+1326 (vdd! _25) capacitor c=7.764e-16 m=1
+\+1325 (vdd! _24) capacitor c=2.9298e-16 m=1
+\+1315 (X2 vdd!) capacitor c=4.4736e-16 m=1
+\+1311 (X1 vdd!) capacitor c=4.4736e-16 m=1
+\+1307 (X0 vdd!) capacitor c=4.4736e-16 m=1
+\+1303 (D7 S1) capacitor c=2.7e-16 m=1
+\+1302 (D7 S0) capacitor c=2.7e-16 m=1
+\+1301 (D7 vdd!) capacitor c=6.5808e-16 m=1
+\+1298 (D6 S1) capacitor c=2.7e-16 m=1
+\+1297 (D6 vdd!) capacitor c=3.2904e-16 m=1
+\+1294 (D5 S1) capacitor c=2.7e-16 m=1
+\+1293 (D5 vdd!) capacitor c=3.2904e-16 m=1
+\+1290 (D4 S1) capacitor c=2.7e-16 m=1
+\+1289 (D4 vdd!) capacitor c=3.2904e-16 m=1
+\+1249 (RESET _85) capacitor c=5.1585e-16 m=1
+\+1239 (RESET _55) capacitor c=5.1585e-16 m=1
+\+1234 (RESET _39) capacitor c=5.1585e-16 m=1
+\+1101 (_60 _195) capacitor c=5.832e-17 m=1
+\+1100 (_60 _194) capacitor c=5.832e-17 m=1
+\+1099 (_60 _193) capacitor c=2.916e-17 m=1
+\+1098 (_60 _192) capacitor c=6.804e-17 m=1
+\+1097 (_60 _191) capacitor c=2.916e-17 m=1
+\+1096 (_60 _190) capacitor c=6.804e-17 m=1
+\+1095 (_60 _189) capacitor c=5.832e-17 m=1
+\+1094 (_60 _188) capacitor c=5.832e-17 m=1
+\+1093 (_60 _187) capacitor c=2.916e-17 m=1
+\+1092 (_60 _186) capacitor c=6.804e-17 m=1
+\+1091 (_60 _185) capacitor c=2.916e-17 m=1
+\+1090 (_60 _184) capacitor c=6.804e-17 m=1
+\+1085 (_60 _87) capacitor c=5.1252e-16 m=1
+\+1084 (_60 _85) capacitor c=1.11012e-15 m=1
+\+1083 (_60 _84) capacitor c=7.8756e-16 m=1
+\+1082 (_60 _83) capacitor c=7.0728e-16 m=1
+\+1081 (_60 _82) capacitor c=5.2224e-16 m=1
+\+1080 (_60 _81) capacitor c=6.9756e-16 m=1
+\+1079 (_60 _80) capacitor c=9.7428e-16 m=1
+\+1078 (_60 _79) capacitor c=5.0091e-16 m=1
+\+1077 (_60 _78) capacitor c=5.1252e-16 m=1
+\+1076 (_60 _77) capacitor c=6.501e-16 m=1
+\+1075 (_60 _76) capacitor c=5.0091e-16 m=1
+\+1073 (_60 _74) capacitor c=6.501e-16 m=1
+\+1072 (_60 _73) capacitor c=5.0091e-16 m=1
+\+1071 (_60 _72) capacitor c=5.1252e-16 m=1
+\+1070 (_60 _70) capacitor c=1.11012e-15 m=1
+\+1069 (_60 _69) capacitor c=7.8756e-16 m=1
+\+1068 (_60 _68) capacitor c=7.0728e-16 m=1
+\+1067 (_60 _67) capacitor c=5.2224e-16 m=1
+\+1066 (_60 _66) capacitor c=6.9756e-16 m=1
+\+1065 (_60 _65) capacitor c=9.7428e-16 m=1
+\+1064 (_60 _64) capacitor c=5.0091e-16 m=1
+\+1063 (_60 _63) capacitor c=5.1252e-16 m=1
+\+1062 (_60 _62) capacitor c=6.501e-16 m=1
+\+1061 (_60 _61) capacitor c=5.0091e-16 m=1
+\+1059 (_59 _60) capacitor c=3.2262e-16 m=1
+\+1037 (_45 _57) capacitor c=5.028e-16 m=1
+\+1036 (_45 _55) capacitor c=6.42e-16 m=1
+\+941 (_29 _183) capacitor c=5.832e-17 m=1
+\+940 (_29 _182) capacitor c=5.832e-17 m=1
+\+939 (_29 _181) capacitor c=2.916e-17 m=1
+\+938 (_29 _180) capacitor c=6.804e-17 m=1
+\+937 (_29 _179) capacitor c=2.916e-17 m=1
+\+936 (_29 _178) capacitor c=6.804e-17 m=1
+\+935 (_29 _177) capacitor c=5.832e-17 m=1
+\+934 (_29 _176) capacitor c=5.832e-17 m=1
+\+933 (_29 _175) capacitor c=2.916e-17 m=1
+\+932 (_29 _174) capacitor c=6.804e-17 m=1
+\+931 (_29 _173) capacitor c=2.916e-17 m=1
+\+930 (_29 _172) capacitor c=6.804e-17 m=1
+\+928 (_29 _60) capacitor c=6.4038e-16 m=1
+\+925 (_29 _57) capacitor c=5.1252e-16 m=1
+\+924 (_29 _55) capacitor c=1.11012e-15 m=1
+\+923 (_29 _54) capacitor c=7.8756e-16 m=1
+\+922 (_29 _53) capacitor c=7.0728e-16 m=1
+\+921 (_29 _52) capacitor c=5.2224e-16 m=1
+\+920 (_29 _51) capacitor c=6.9756e-16 m=1
+\+919 (_29 _50) capacitor c=9.7428e-16 m=1
+\+918 (_29 _49) capacitor c=5.0091e-16 m=1
+\+917 (_29 _48) capacitor c=5.1252e-16 m=1
+\+916 (_29 _47) capacitor c=6.501e-16 m=1
+\+915 (_29 _46) capacitor c=5.0091e-16 m=1
+\+913 (_29 _44) capacitor c=6.501e-16 m=1
+\+912 (_29 _43) capacitor c=5.0091e-16 m=1
+\+911 (_29 _42) capacitor c=9.6786e-16 m=1
+\+910 (_29 _41) capacitor c=5.1252e-16 m=1
+\+909 (_29 _39) capacitor c=1.11012e-15 m=1
+\+908 (_29 _38) capacitor c=7.8756e-16 m=1
+\+907 (_29 _37) capacitor c=7.0728e-16 m=1
+\+906 (_29 _36) capacitor c=5.2224e-16 m=1
+\+905 (_29 _35) capacitor c=6.9756e-16 m=1
+\+904 (_29 _34) capacitor c=9.7428e-16 m=1
+\+903 (_29 _33) capacitor c=5.0091e-16 m=1
+\+902 (_29 _32) capacitor c=5.1252e-16 m=1
+\+901 (_29 _31) capacitor c=6.501e-16 m=1
+\+900 (_29 _30) capacitor c=5.0091e-16 m=1
+\+898 (_28 _29) capacitor c=3.2262e-16 m=1
+\+755 (S1 _60) capacitor c=1.69158e-15 m=1
+\+752 (S1 _29) capacitor c=1.69158e-15 m=1
+\+613 (vdd! _60) capacitor c=1.1503e-14 m=1
+\+611 (vdd! _29) capacitor c=1.1503e-14 m=1
+\+607 (X2 _60) capacitor c=5.1252e-16 m=1
+\+600 (X1 _29) capacitor c=5.1252e-16 m=1
+\+597 (X0 _29) capacitor c=5.1252e-16 m=1
+\+587 (D6 _29) capacitor c=3.2262e-16 m=1
+\+582 (D4 _60) capacitor c=3.2262e-16 m=1
+\+563 (RESET _60) capacitor c=7.4016e-16 m=1
+\+560 (RESET _29) capacitor c=7.4016e-16 m=1
+\+515 (S0 _87) capacitor c=2.424e-16 m=1
+\+512 (S0 _83) capacitor c=3.048e-16 m=1
+\+510 (S0 _81) capacitor c=3.048e-16 m=1
+\+507 (S0 _78) capacitor c=2.424e-16 m=1
+\+506 (S0 _77) capacitor c=3.0672e-16 m=1
+\+504 (S0 _75) capacitor c=2.60089e-14 m=1
+\+503 (S0 _74) capacitor c=4.2624e-16 m=1
+\+501 (S0 _72) capacitor c=2.424e-16 m=1
+\+500 (S0 _70) capacitor c=3.048e-16 m=1
+\+495 (S0 _65) capacitor c=3.4932e-16 m=1
+\+492 (S0 _62) capacitor c=3.0672e-16 m=1
+\+489 (S0 _59) capacitor c=3.0672e-16 m=1
+\+486 (S0 _55) capacitor c=3.048e-16 m=1
+\+485 (S0 _54) capacitor c=1.7808e-16 m=1
+\+484 (S0 _53) capacitor c=3.048e-16 m=1
+\+483 (S0 _52) capacitor c=2.1576e-16 m=1
+\+482 (S0 _51) capacitor c=3.048e-16 m=1
+\+480 (S0 _49) capacitor c=3.18435e-16 m=1
+\+479 (S0 _48) capacitor c=2.424e-16 m=1
+\+476 (S0 _45) capacitor c=2.60089e-14 m=1
+\+475 (S0 _44) capacitor c=4.2624e-16 m=1
+\+472 (S0 _41) capacitor c=4.56e-16 m=1
+\+471 (S0 _39) capacitor c=6.06e-16 m=1
+\+470 (S0 _38) capacitor c=3.6624e-16 m=1
+\+469 (S0 _37) capacitor c=6.06e-16 m=1
+\+468 (S0 _36) capacitor c=4.2288e-16 m=1
+\+467 (S0 _35) capacitor c=6.06e-16 m=1
+\+466 (S0 _34) capacitor c=7.5384e-16 m=1
+\+465 (S0 _33) capacitor c=6.2925e-16 m=1
+\+464 (S0 _32) capacitor c=4.56e-16 m=1
+\+463 (S0 _31) capacitor c=5.4576e-16 m=1
+\+461 (S0 _29) capacitor c=5.5692e-16 m=1
+\+460 (S0 _28) capacitor c=4.2624e-16 m=1
+\+457 (S0 _25) capacitor c=3.56832e-15 m=1
+\+447 (vdd! S0) capacitor c=3.09857e-14 m=1
+\+444 (X0 S0) capacitor c=4.2324e-16 m=1
+\+442 (D6 S0) capacitor c=2.7288e-16 m=1
+\+440 (D4 S0) capacitor c=2.7288e-16 m=1
+\+1767 (vdd! S0) capacitor c=1.11321e-15 m=1
+\+1548 (_23 _49) capacitor c=5.7258e-16 m=1
+\+1545 (_23 _46) capacitor c=5.7258e-16 m=1
+\+1544 (_23 _45) capacitor c=3.35352e-15 m=1
+\+1542 (_23 _43) capacitor c=5.7258e-16 m=1
+\+1541 (_23 _42) capacitor c=3.88962e-15 m=1
+\+1531 (_23 _32) capacitor c=7.4316e-16 m=1
+\+1529 (_23 _30) capacitor c=5.7258e-16 m=1
+\+1526 (_23 _27) capacitor c=5.7258e-16 m=1
+\+1035 (_45 _54) capacitor c=3.7008e-16 m=1
+\+1034 (_45 _53) capacitor c=6.42e-16 m=1
+\+1033 (_45 _52) capacitor c=4.5696e-16 m=1
+\+1032 (_45 _51) capacitor c=6.42e-16 m=1
+\+1031 (_45 _50) capacitor c=8.1096e-16 m=1
+\+1029 (_45 _48) capacitor c=5.028e-16 m=1
+\+1028 (_45 _47) capacitor c=6.3552e-16 m=1
+\+1025 (_44 _45) capacitor c=3.1776e-16 m=1
+\+854 (_25 _29) capacitor c=6.4038e-16 m=1
+\+853 (_25 _28) capacitor c=3.1776e-16 m=1
+\+851 (_25 _26) capacitor c=3.1776e-16 m=1
+\+833 (_23 _25) capacitor c=9.5943e-16 m=1
+\+773 (S2 _45) capacitor c=9.63e-16 m=1
+\+754 (S1 _45) capacitor c=1.53462e-15 m=1
+\+750 (S1 _25) capacitor c=6.7824e-16 m=1
+\+612 (vdd! _45) capacitor c=1.3287e-14 m=1
+\+609 (vdd! _25) capacitor c=1.14804e-15 m=1
+\+592 (D7 _25) capacitor c=6.3552e-16 m=1
+\+562 (RESET _45) capacitor c=1.11024e-15 m=1
+\+454 (S0 S2) capacitor c=8.364e-16 m=1
+\+1783 (vdd! _46) capacitor c=1.3392e-16 m=1
+\+1772 (vdd! _30) capacitor c=1.3392e-16 m=1
+\+1771 (vdd! _27) capacitor c=1.3392e-16 m=1
+\+1770 (vdd! _24) capacitor c=1.3392e-16 m=1
+\+1229 (RESET vdd!) capacitor c=1.2131e-13 m=1
+\+1898 (_23 _64) capacitor c=6.6123e-16 m=1
+\+1577 (_23 _78) capacitor c=7.4316e-16 m=1
+\+1576 (_23 _77) capacitor c=3.39408e-15 m=1
+\+1572 (_23 _73) capacitor c=5.7258e-16 m=1
+\+1563 (_23 _64) capacitor c=5.7258e-16 m=1
+\+1560 (_23 _61) capacitor c=5.7258e-16 m=1
+\+1559 (_23 _60) capacitor c=3.35352e-15 m=1
+\+1557 (_23 _58) capacitor c=5.7258e-16 m=1
+\+1117 (_75 _87) capacitor c=5.028e-16 m=1
+\+1116 (_75 _85) capacitor c=6.42e-16 m=1
+\+1115 (_75 _84) capacitor c=3.7008e-16 m=1
+\+1114 (_75 _83) capacitor c=6.42e-16 m=1
+\+1113 (_75 _82) capacitor c=4.5696e-16 m=1
+\+1112 (_75 _81) capacitor c=6.42e-16 m=1
+\+1111 (_75 _80) capacitor c=8.1096e-16 m=1
+\+1110 (_75 _79) capacitor c=7.38945e-16 m=1
+\+1109 (_75 _78) capacitor c=5.028e-16 m=1
+\+1108 (_75 _77) capacitor c=6.3552e-16 m=1
+\+1105 (_74 _75) capacitor c=3.1776e-16 m=1
+\+1051 (_45 _72) capacitor c=5.028e-16 m=1
+\+1050 (_45 _70) capacitor c=6.42e-16 m=1
+\+1049 (_45 _69) capacitor c=3.7008e-16 m=1
+\+1048 (_45 _68) capacitor c=6.42e-16 m=1
+\+1047 (_45 _67) capacitor c=4.5696e-16 m=1
+\+1046 (_45 _66) capacitor c=6.42e-16 m=1
+\+1045 (_45 _65) capacitor c=8.1096e-16 m=1
+\+1044 (_45 _64) capacitor c=7.38945e-16 m=1
+\+1043 (_45 _63) capacitor c=5.028e-16 m=1
+\+1042 (_45 _62) capacitor c=6.3552e-16 m=1
+\+1040 (_45 _60) capacitor c=9.6786e-16 m=1
+\+1039 (_45 _59) capacitor c=6.3552e-16 m=1
+\+914 (_29 _45) capacitor c=9.5814e-16 m=1
+\+837 (_23 _45) capacitor c=1.3119e-14 m=1
+\+606 (X2 _45) capacitor c=5.028e-16 m=1
+\+602 (X1 _45) capacitor c=5.028e-16 m=1
+\+585 (D5 _45) capacitor c=3.1776e-16 m=1
+\+564 (RESET _75) capacitor c=1.11024e-15 m=1
+\+1807 (vdd! _79) capacitor c=1.3392e-16 m=1
+\+1804 (vdd! _73) capacitor c=1.3392e-16 m=1
+\+1796 (vdd! _64) capacitor c=1.3392e-16 m=1
+\+1794 (vdd! _61) capacitor c=1.3392e-16 m=1
+\+1793 (vdd! _58) capacitor c=1.3392e-16 m=1
+\+1768 (vdd! S1) capacitor c=8.82198e-15 m=1
+\+1959 (_23 _139) capacitor c=6.6123e-16 m=1
+\+1957 (_23 _136) capacitor c=6.6123e-16 m=1
+\+1955 (_23 _134) capacitor c=6.6123e-16 m=1
+\+1948 (_23 _125) capacitor c=2.77884e-15 m=1
+\+1946 (_23 _123) capacitor c=6.6123e-16 m=1
+\+1944 (_23 _120) capacitor c=6.6123e-16 m=1
+\+1943 (_23 _119) capacitor c=1.40616e-15 m=1
+\+1942 (_23 _118) capacitor c=6.6123e-16 m=1
+\+1934 (_23 _109) capacitor c=6.6123e-16 m=1
+\+1930 (_23 _103) capacitor c=6.6123e-16 m=1
+\+1927 (_23 _99) capacitor c=9.7929e-16 m=1
+\+1926 (_23 _98) capacitor c=1.07136e-15 m=1
+\+1922 (_23 _94) capacitor c=6.6123e-16 m=1
+\+1920 (_23 _91) capacitor c=6.6123e-16 m=1
+\+1866 (S0 _23) capacitor c=1.89999e-15 m=1
+\+1752 (_146 _147) capacitor c=2.217e-16 m=1
+\+1749 (_141 _146) capacitor c=2.7e-16 m=1
+\+1746 (_140 _145) capacitor c=3.59175e-16 m=1
+\+1745 (_138 _141) capacitor c=2.217e-16 m=1
+\+1739 (_130 _131) capacitor c=2.217e-16 m=1
+\+1736 (_125 _130) capacitor c=2.7e-16 m=1
+\+1733 (_124 _129) capacitor c=3.59175e-16 m=1
+\+1732 (_122 _125) capacitor c=2.217e-16 m=1
+\+1727 (_116 _117) capacitor c=2.217e-16 m=1
+\+1725 (_112 _113) capacitor c=4.434e-16 m=1
+\+1724 (_111 _116) capacitor c=2.7e-16 m=1
+\+1721 (_110 _115) capacitor c=3.59175e-16 m=1
+\+1720 (_108 _111) capacitor c=2.217e-16 m=1
+\+1714 (_101 _102) capacitor c=2.217e-16 m=1
+\+1712 (_97 _98) capacitor c=4.434e-16 m=1
+\+1711 (_96 _101) capacitor c=2.7e-16 m=1
+\+1708 (_95 _100) capacitor c=3.59175e-16 m=1
+\+1707 (_93 _96) capacitor c=2.217e-16 m=1
+\+1645 (_23 _146) capacitor c=1.23672e-15 m=1
+\+1643 (_23 _144) capacitor c=1.1832e-16 m=1
+\+1642 (_23 _143) capacitor c=2.1675e-15 m=1
+\+1640 (_23 _141) capacitor c=3.62436e-15 m=1
+\+1639 (_23 _140) capacitor c=2.32806e-15 m=1
+\+1636 (_23 _137) capacitor c=3.39408e-15 m=1
+\+1634 (_23 _135) capacitor c=2.7729e-15 m=1
+\+1629 (_23 _130) capacitor c=1.23672e-15 m=1
+\+1627 (_23 _128) capacitor c=1.1832e-16 m=1
+\+1626 (_23 _127) capacitor c=2.1675e-15 m=1
+\+1618 (_23 _119) capacitor c=2.7729e-15 m=1
+\+1615 (_23 _116) capacitor c=1.23672e-15 m=1
+\+1613 (_23 _114) capacitor c=1.1832e-16 m=1
+\+1610 (_23 _111) capacitor c=3.62436e-15 m=1
+\+1606 (_23 _107) capacitor c=3.39408e-15 m=1
+\+1603 (_23 _104) capacitor c=2.7729e-15 m=1
+\+1600 (_23 _101) capacitor c=1.23672e-15 m=1
+\+1598 (_23 _99) capacitor c=1.1832e-16 m=1
+\+1597 (_23 _98) capacitor c=2.1675e-15 m=1
+\+1591 (_23 _92) capacitor c=3.39408e-15 m=1
+\+1588 (_23 _89) capacitor c=2.7729e-15 m=1
+\+1521 (S2 _135) capacitor c=5.4e-16 m=1
+\+1517 (S2 _104) capacitor c=5.4e-16 m=1
+\+1506 (S1 _137) capacitor c=2.217e-16 m=1
+\+1504 (S1 _135) capacitor c=2.7e-16 m=1
+\+1502 (S1 _121) capacitor c=2.217e-16 m=1
+\+1500 (S1 _119) capacitor c=2.7e-16 m=1
+\+1498 (S1 _107) capacitor c=2.217e-16 m=1
+\+1495 (S1 _104) capacitor c=2.7e-16 m=1
+\+1493 (S1 _92) capacitor c=2.217e-16 m=1
+\+1490 (S1 _89) capacitor c=2.7e-16 m=1
+\+1466 (S1 _23) capacitor c=1.16515e-13 m=1
+\+1460 (CLK _140) capacitor c=2.7e-16 m=1
+\+1459 (CLK _124) capacitor c=2.7e-16 m=1
+\+1458 (CLK _110) capacitor c=2.7e-16 m=1
+\+1457 (CLK _95) capacitor c=2.7e-16 m=1
+\+1274 (D0 _23) capacitor c=1.9041e-15 m=1
+\+1273 (D0 S1) capacitor c=5.4e-16 m=1
+\+1270 (RESET _146) capacitor c=2.217e-16 m=1
+\+1265 (RESET _130) capacitor c=2.217e-16 m=1
+\+1260 (RESET _116) capacitor c=2.217e-16 m=1
+\+1255 (RESET _101) capacitor c=2.217e-16 m=1
+\+1252 (RESET _98) capacitor c=6.651e-16 m=1
+\+1024 (_42 _166) capacitor c=2.5515e-17 m=1
+\+1023 (_42 _163) capacitor c=2.5515e-17 m=1
+\+1022 (_42 _160) capacitor c=2.5515e-17 m=1
+\+1017 (_42 _131) capacitor c=6.91485e-16 m=1
+\+1016 (_42 _130) capacitor c=9.28665e-16 m=1
+\+1015 (_42 _129) capacitor c=8.11845e-16 m=1
+\+1014 (_42 _128) capacitor c=9.25485e-16 m=1
+\+1013 (_42 _127) capacitor c=6.9081e-16 m=1
+\+1012 (_42 _126) capacitor c=5.02125e-16 m=1
+\+1011 (_42 _125) capacitor c=7.506e-16 m=1
+\+1010 (_42 _124) capacitor c=1.36551e-15 m=1
+\+1009 (_42 _122) capacitor c=1.8504e-16 m=1
+\+1008 (_42 _121) capacitor c=5.4384e-16 m=1
+\+1007 (_42 _119) capacitor c=6.3552e-16 m=1
+\+1006 (_42 _117) capacitor c=6.91485e-16 m=1
+\+1005 (_42 _116) capacitor c=9.28665e-16 m=1
+\+1004 (_42 _115) capacitor c=8.11845e-16 m=1
+\+1003 (_42 _114) capacitor c=9.25485e-16 m=1
+\+1002 (_42 _113) capacitor c=6.9081e-16 m=1
+\+1001 (_42 _112) capacitor c=5.02125e-16 m=1
+\+1000 (_42 _111) capacitor c=7.506e-16 m=1
+\+999 (_42 _110) capacitor c=1.36551e-15 m=1
+\+998 (_42 _108) capacitor c=1.8504e-16 m=1
+\+997 (_42 _107) capacitor c=5.4384e-16 m=1
+\+996 (_42 _105) capacitor c=6.3552e-16 m=1
+\+995 (_42 _104) capacitor c=6.3552e-16 m=1
+\+994 (_42 _102) capacitor c=6.91485e-16 m=1
+\+993 (_42 _101) capacitor c=9.28665e-16 m=1
+\+992 (_42 _100) capacitor c=8.11845e-16 m=1
+\+991 (_42 _99) capacitor c=9.25485e-16 m=1
+\+990 (_42 _98) capacitor c=6.9081e-16 m=1
+\+989 (_42 _97) capacitor c=5.02125e-16 m=1
+\+988 (_42 _96) capacitor c=7.506e-16 m=1
+\+987 (_42 _95) capacitor c=1.36551e-15 m=1
+\+986 (_42 _93) capacitor c=1.8504e-16 m=1
+\+985 (_42 _92) capacitor c=5.4384e-16 m=1
+\+984 (_42 _90) capacitor c=3.1776e-16 m=1
+\+983 (_42 _89) capacitor c=6.3552e-16 m=1
+\+972 (_42 _75) capacitor c=3.1776e-16 m=1
+\+836 (_23 _42) capacitor c=5.20768e-14 m=1
+\+747 (S0 _42) capacitor c=9.8904e-16 m=1
+\+741 (CLK _137) capacitor c=6.6468e-16 m=1
+\+732 (CLK _127) capacitor c=9.4254e-16 m=1
+\+726 (CLK _121) capacitor c=6.6468e-16 m=1
+\+724 (CLK _119) capacitor c=6.6468e-16 m=1
+\+713 (CLK _107) capacitor c=6.6468e-16 m=1
+\+705 (CLK _98) capacitor c=9.4254e-16 m=1
+\+699 (CLK _92) capacitor c=6.6468e-16 m=1
+\+642 (CLK _26) capacitor c=6.9756e-16 m=1
+\+636 (X6 _42) capacitor c=5.028e-16 m=1
+\+630 (X5 _42) capacitor c=5.028e-16 m=1
+\+625 (X4 _42) capacitor c=5.028e-16 m=1
+\+571 (D1 CLK) capacitor c=3.2748e-16 m=1
+\+434 (D0 _42) capacitor c=1.02564e-15 m=1
+\+433 (D0 _23) capacitor c=1.91268e-15 m=1
+\+432 (D0 S1) capacitor c=3.948e-16 m=1
+\+431 (D0 S0) capacitor c=3.276e-17 m=1
+\+1940 (_23 _115) capacitor c=1.07136e-15 m=1
+\+1939 (_23 _114) capacitor c=9.7929e-16 m=1
+\+1938 (_23 _113) capacitor c=1.07136e-15 m=1
+\+1937 (_23 _112) capacitor c=5.3568e-16 m=1
+\+1935 (_23 _110) capacitor c=1.674e-15 m=1
+\+1933 (_23 _108) capacitor c=4.6872e-16 m=1
+\+1931 (_23 _104) capacitor c=1.40616e-15 m=1
+\+1929 (_23 _102) capacitor c=1.35594e-15 m=1
+\+1928 (_23 _100) capacitor c=1.07136e-15 m=1
+\+1923 (_23 _95) capacitor c=1.674e-15 m=1
+\+1919 (_23 _89) capacitor c=1.40616e-15 m=1
+\+1862 (X5 _23) capacitor c=6.0264e-16 m=1
+\+1861 (X4 _23) capacitor c=6.0264e-16 m=1
+\+1609 (_23 _110) capacitor c=2.32806e-15 m=1
+\+1594 (_23 _95) capacitor c=2.32806e-15 m=1
+\+821 (S2 _117) capacitor c=3.7008e-16 m=1
+\+820 (S2 _115) capacitor c=3.0576e-16 m=1
+\+819 (S2 _114) capacitor c=1.2072e-16 m=1
+\+818 (S2 _113) capacitor c=2.4144e-16 m=1
+\+817 (S2 _112) capacitor c=1.2072e-16 m=1
+\+816 (S2 _111) capacitor c=8.826e-16 m=1
+\+815 (S2 _110) capacitor c=9.0996e-16 m=1
+\+814 (S2 _108) capacitor c=4.1139e-16 m=1
+\+812 (S2 _104) capacitor c=2.72592e-15 m=1
+\+811 (S2 _102) capacitor c=3.7008e-16 m=1
+\+810 (S2 _100) capacitor c=3.0576e-16 m=1
+\+809 (S2 _99) capacitor c=1.2072e-16 m=1
+\+808 (S2 _98) capacitor c=2.4144e-16 m=1
+\+807 (S2 _97) capacitor c=1.2072e-16 m=1
+\+806 (S2 _96) capacitor c=8.826e-16 m=1
+\+805 (S2 _95) capacitor c=9.0996e-16 m=1
+\+804 (S2 _93) capacitor c=4.1139e-16 m=1
+\+803 (S2 _90) capacitor c=1.06764e-15 m=1
+\+802 (S2 _89) capacitor c=2.72592e-15 m=1
+\+793 (S2 _75) capacitor c=9.63e-16 m=1
+\+629 (X5 S2) capacitor c=5.1252e-16 m=1
+\+624 (X4 S2) capacitor c=5.1252e-16 m=1
+\+1864 (CLK _23) capacitor c=4.28544e-15 m=1
+\+1726 (_115 _117) capacitor c=2.217e-16 m=1
+\+1723 (_111 _115) capacitor c=2.217e-16 m=1
+\+1722 (_111 _112) capacitor c=2.217e-16 m=1
+\+1713 (_100 _102) capacitor c=2.217e-16 m=1
+\+1710 (_96 _100) capacitor c=2.217e-16 m=1
+\+1709 (_96 _97) capacitor c=2.217e-16 m=1
+\+1616 (_23 _117) capacitor c=1.42728e-15 m=1
+\+1614 (_23 _115) capacitor c=2.69085e-15 m=1
+\+1611 (_23 _112) capacitor c=1.6776e-15 m=1
+\+1599 (_23 _100) capacitor c=2.69085e-15 m=1
+\+1449 (X5 _115) capacitor c=2.7e-16 m=1
+\+1447 (X5 _23) capacitor c=1.83396e-15 m=1
+\+1446 (X4 _100) capacitor c=2.7e-16 m=1
+\+1444 (X4 _23) capacitor c=1.83396e-15 m=1
+\+1254 (RESET _100) capacitor c=5.1585e-16 m=1
+\+723 (CLK _118) capacitor c=5.1252e-16 m=1
+\+722 (CLK _117) capacitor c=5.832e-16 m=1
+\+721 (CLK _115) capacitor c=1.95543e-15 m=1
+\+720 (CLK _114) capacitor c=1.8504e-16 m=1
+\+719 (CLK _113) capacitor c=9.4254e-16 m=1
+\+718 (CLK _112) capacitor c=4.5696e-16 m=1
+\+717 (CLK _111) capacitor c=9.8076e-16 m=1
+\+716 (CLK _110) capacitor c=6.8826e-16 m=1
+\+715 (CLK _109) capacitor c=5.1252e-16 m=1
+\+714 (CLK _108) capacitor c=7.0728e-16 m=1
+\+712 (CLK _106) capacitor c=5.1252e-16 m=1
+\+710 (CLK _104) capacitor c=6.6468e-16 m=1
+\+709 (CLK _103) capacitor c=5.1252e-16 m=1
+\+708 (CLK _102) capacitor c=5.832e-16 m=1
+\+707 (CLK _100) capacitor c=1.95543e-15 m=1
+\+706 (CLK _99) capacitor c=1.8504e-16 m=1
+\+704 (CLK _97) capacitor c=4.5696e-16 m=1
+\+703 (CLK _96) capacitor c=9.8076e-16 m=1
+\+702 (CLK _95) capacitor c=6.8826e-16 m=1
+\+701 (CLK _94) capacitor c=5.1252e-16 m=1
+\+700 (CLK _93) capacitor c=7.0728e-16 m=1
+\+698 (CLK _91) capacitor c=5.1252e-16 m=1
+\+697 (CLK _90) capacitor c=1.3428e-15 m=1
+\+696 (CLK _89) capacitor c=6.6468e-16 m=1
+\+628 (X5 CLK) capacitor c=9.4086e-16 m=1
+\+623 (X4 CLK) capacitor c=9.4086e-16 m=1
+\+577 (D3 CLK) capacitor c=3.2748e-16 m=1
+\+574 (D2 CLK) capacitor c=3.2748e-16 m=1
+\+557 (RESET CLK) capacitor c=2.05548e-15 m=1
+\+1964 (_23 _144) capacitor c=9.7929e-16 m=1
+\+1963 (_23 _143) capacitor c=1.07136e-15 m=1
+\+1962 (_23 _142) capacitor c=5.3568e-16 m=1
+\+1961 (_23 _141) capacitor c=2.77884e-15 m=1
+\+1958 (_23 _138) capacitor c=4.6872e-16 m=1
+\+1956 (_23 _135) capacitor c=1.40616e-15 m=1
+\+1951 (_23 _128) capacitor c=9.7929e-16 m=1
+\+1950 (_23 _127) capacitor c=1.07136e-15 m=1
+\+1949 (_23 _126) capacitor c=5.3568e-16 m=1
+\+1947 (_23 _124) capacitor c=1.674e-15 m=1
+\+1865 (X7 _23) capacitor c=6.0264e-16 m=1
+\+1863 (X6 _23) capacitor c=6.0264e-16 m=1
+\+1623 (_23 _124) capacitor c=2.32806e-15 m=1
+\+831 (S2 _135) capacitor c=2.72592e-15 m=1
+\+830 (S2 _131) capacitor c=3.7008e-16 m=1
+\+829 (S2 _129) capacitor c=3.0576e-16 m=1
+\+828 (S2 _128) capacitor c=1.2072e-16 m=1
+\+827 (S2 _127) capacitor c=2.4144e-16 m=1
+\+826 (S2 _126) capacitor c=1.2072e-16 m=1
+\+825 (S2 _125) capacitor c=8.826e-16 m=1
+\+824 (S2 _124) capacitor c=9.0996e-16 m=1
+\+823 (S2 _122) capacitor c=4.1139e-16 m=1
+\+822 (S2 _119) capacitor c=2.72592e-15 m=1
+\+634 (X6 S2) capacitor c=5.1252e-16 m=1
+\+1965 (_23 _145) capacitor c=1.07136e-15 m=1
+\+1952 (_23 _129) capacitor c=1.07136e-15 m=1
+\+1751 (_145 _147) capacitor c=2.217e-16 m=1
+\+1748 (_141 _145) capacitor c=2.217e-16 m=1
+\+1747 (_141 _142) capacitor c=2.217e-16 m=1
+\+1738 (_129 _131) capacitor c=2.217e-16 m=1
+\+1735 (_125 _129) capacitor c=2.217e-16 m=1
+\+1734 (_125 _126) capacitor c=2.217e-16 m=1
+\+1646 (_23 _147) capacitor c=1.42728e-15 m=1
+\+1644 (_23 _145) capacitor c=2.69085e-15 m=1
+\+1630 (_23 _131) capacitor c=1.42728e-15 m=1
+\+1628 (_23 _129) capacitor c=2.69085e-15 m=1
+\+1625 (_23 _126) capacitor c=1.6776e-15 m=1
+\+1463 (X7 _145) capacitor c=2.7e-16 m=1
+\+1461 (X7 _23) capacitor c=1.83396e-15 m=1
+\+1452 (X6 _129) capacitor c=2.7e-16 m=1
+\+1450 (X6 _23) capacitor c=1.83396e-15 m=1
+\+1269 (RESET _145) capacitor c=5.1585e-16 m=1
+\+1264 (RESET _129) capacitor c=5.1585e-16 m=1
+\+744 (CLK _140) capacitor c=2.7192e-16 m=1
+\+743 (CLK _139) capacitor c=5.1252e-16 m=1
+\+742 (CLK _138) capacitor c=5.2224e-16 m=1
+\+740 (CLK _136) capacitor c=5.1252e-16 m=1
+\+739 (CLK _135) capacitor c=6.6468e-16 m=1
+\+738 (CLK _134) capacitor c=5.1252e-16 m=1
+\+737 (CLK _133) capacitor c=6.6468e-16 m=1
+\+736 (CLK _132) capacitor c=5.1252e-16 m=1
+\+735 (CLK _131) capacitor c=5.832e-16 m=1
+\+734 (CLK _129) capacitor c=1.95543e-15 m=1
+\+733 (CLK _128) capacitor c=1.8504e-16 m=1
+\+731 (CLK _126) capacitor c=4.5696e-16 m=1
+\+730 (CLK _125) capacitor c=9.8076e-16 m=1
+\+729 (CLK _124) capacitor c=6.8826e-16 m=1
+\+728 (CLK _123) capacitor c=5.1252e-16 m=1
+\+727 (CLK _122) capacitor c=7.0728e-16 m=1
+\+725 (CLK _120) capacitor c=5.1252e-16 m=1
+\+711 (CLK _105) capacitor c=1.3428e-15 m=1
+\+652 (CLK _42) capacitor c=1.2384e-15 m=1
+\+638 (CLK S0) capacitor c=3.7008e-16 m=1
+\+633 (X6 CLK) capacitor c=9.4086e-16 m=1
+\+608 (vdd! CLK) capacitor c=2.29236e-15 m=1
+\+567 (D0 CLK) capacitor c=6.5496e-16 m=1
+\+430 (D0 CLK) capacitor c=3.222e-16 m=1
+\+1859 (vdd! _147) capacitor c=1.3392e-16 m=1
+\+1858 (vdd! _145) capacitor c=6.696e-16 m=1
+\+1857 (vdd! _144) capacitor c=3.7665e-16 m=1
+\+1856 (vdd! _143) capacitor c=2.6784e-16 m=1
+\+1855 (vdd! _142) capacitor c=1.3392e-16 m=1
+\+1854 (vdd! _141) capacitor c=2.6784e-16 m=1
+\+1853 (vdd! _140) capacitor c=2.27664e-15 m=1
+\+1851 (vdd! _138) capacitor c=1.3392e-16 m=1
+\+1849 (vdd! _134) capacitor c=1.3392e-16 m=1
+\+1848 (vdd! _132) capacitor c=1.3392e-16 m=1
+\+1847 (vdd! _131) capacitor c=1.3392e-16 m=1
+\+1846 (vdd! _129) capacitor c=6.696e-16 m=1
+\+1845 (vdd! _128) capacitor c=3.7665e-16 m=1
+\+1844 (vdd! _127) capacitor c=2.6784e-16 m=1
+\+1843 (vdd! _126) capacitor c=1.3392e-16 m=1
+\+1842 (vdd! _125) capacitor c=2.6784e-16 m=1
+\+1841 (vdd! _124) capacitor c=2.27664e-15 m=1
+\+1839 (vdd! _122) capacitor c=1.3392e-16 m=1
+\+1837 (vdd! _118) capacitor c=1.3392e-16 m=1
+\+1836 (vdd! _117) capacitor c=1.3392e-16 m=1
+\+1835 (vdd! _115) capacitor c=6.696e-16 m=1
+\+1834 (vdd! _114) capacitor c=3.7665e-16 m=1
+\+1833 (vdd! _113) capacitor c=2.6784e-16 m=1
+\+1832 (vdd! _112) capacitor c=1.3392e-16 m=1
+\+1831 (vdd! _111) capacitor c=2.6784e-16 m=1
+\+1830 (vdd! _110) capacitor c=2.27664e-15 m=1
+\+1829 (vdd! _109) capacitor c=1.3392e-16 m=1
+\+1828 (vdd! _108) capacitor c=1.3392e-16 m=1
+\+1825 (vdd! _102) capacitor c=1.3392e-16 m=1
+\+1824 (vdd! _100) capacitor c=6.696e-16 m=1
+\+1823 (vdd! _99) capacitor c=3.7665e-16 m=1
+\+1822 (vdd! _98) capacitor c=2.6784e-16 m=1
+\+1821 (vdd! _97) capacitor c=1.3392e-16 m=1
+\+1820 (vdd! _96) capacitor c=2.6784e-16 m=1
+\+1819 (vdd! _95) capacitor c=2.27664e-15 m=1
+\+1818 (vdd! _94) capacitor c=1.3392e-16 m=1
+\+1817 (vdd! _93) capacitor c=1.3392e-16 m=1
+\+1816 (vdd! _91) capacitor c=1.3392e-16 m=1
+\+1815 (vdd! _88) capacitor c=1.3392e-16 m=1
+\+1766 (vdd! X7) capacitor c=1.3392e-16 m=1
+\+1765 (vdd! CLK) capacitor c=1.07136e-15 m=1
+\+1764 (vdd! X6) capacitor c=1.3392e-16 m=1
+\+1763 (vdd! X5) capacitor c=1.3392e-16 m=1
+\+1762 (vdd! X4) capacitor c=1.3392e-16 m=1
+\+1753 (RESET vdd!) capacitor c=4.67046e-14 m=1
+\+1522 (S2 _139) capacitor c=2.217e-16 m=1
+\+1520 (S2 _123) capacitor c=2.217e-16 m=1
+\+1519 (S2 _119) capacitor c=5.4e-16 m=1
+\+1518 (S2 _109) capacitor c=2.217e-16 m=1
+\+1516 (S2 _94) capacitor c=2.217e-16 m=1
+\+1515 (S2 _89) capacitor c=5.4e-16 m=1
+\+1505 (S1 _136) capacitor c=2.217e-16 m=1
+\+1503 (S1 _134) capacitor c=2.217e-16 m=1
+\+1501 (S1 _120) capacitor c=2.217e-16 m=1
+\+1499 (S1 _118) capacitor c=2.217e-16 m=1
+\+1497 (S1 _106) capacitor c=2.217e-16 m=1
+\+1496 (S1 _105) capacitor c=2.7e-16 m=1
+\+1494 (S1 _103) capacitor c=2.217e-16 m=1
+\+1492 (S1 _91) capacitor c=2.217e-16 m=1
+\+1491 (S1 _90) capacitor c=2.7e-16 m=1
+\+1489 (S1 _88) capacitor c=2.217e-16 m=1
+\+1486 (S1 _75) capacitor c=2.7e-16 m=1
+\+1481 (S1 _60) capacitor c=2.7e-16 m=1
+\+1465 (S0 _132) capacitor c=2.217e-16 m=1
+\+1440 (vdd! _147) capacitor c=4.4736e-16 m=1
+\+1439 (vdd! _145) capacitor c=1.47258e-15 m=1
+\+1438 (vdd! _144) capacitor c=1.71e-16 m=1
+\+1437 (vdd! _143) capacitor c=4.0482e-16 m=1
+\+1436 (vdd! _142) capacitor c=4.0482e-16 m=1
+\+1435 (vdd! _141) capacitor c=4.0482e-16 m=1
+\+1434 (vdd! _140) capacitor c=5.65062e-15 m=1
+\+1433 (vdd! _139) capacitor c=2.9298e-16 m=1
+\+1432 (vdd! _138) capacitor c=4.4736e-16 m=1
+\+1431 (vdd! _137) capacitor c=8.9472e-16 m=1
+\+1430 (vdd! _136) capacitor c=2.9298e-16 m=1
+\+1429 (vdd! _135) capacitor c=7.764e-16 m=1
+\+1428 (vdd! _134) capacitor c=2.9298e-16 m=1
+\+1427 (vdd! _133) capacitor c=8.9472e-16 m=1
+\+1426 (vdd! _132) capacitor c=2.9298e-16 m=1
+\+1425 (vdd! _131) capacitor c=4.4736e-16 m=1
+\+1424 (vdd! _129) capacitor c=1.47258e-15 m=1
+\+1423 (vdd! _128) capacitor c=1.71e-16 m=1
+\+1422 (vdd! _127) capacitor c=4.0482e-16 m=1
+\+1421 (vdd! _126) capacitor c=4.0482e-16 m=1
+\+1420 (vdd! _125) capacitor c=4.0482e-16 m=1
+\+1419 (vdd! _124) capacitor c=5.65062e-15 m=1
+\+1418 (vdd! _123) capacitor c=2.9298e-16 m=1
+\+1417 (vdd! _122) capacitor c=4.4736e-16 m=1
+\+1416 (vdd! _121) capacitor c=8.9472e-16 m=1
+\+1415 (vdd! _120) capacitor c=2.9298e-16 m=1
+\+1414 (vdd! _119) capacitor c=7.764e-16 m=1
+\+1413 (vdd! _118) capacitor c=2.9298e-16 m=1
+\+1412 (vdd! _117) capacitor c=4.4736e-16 m=1
+\+1411 (vdd! _115) capacitor c=1.47258e-15 m=1
+\+1410 (vdd! _114) capacitor c=1.71e-16 m=1
+\+1409 (vdd! _113) capacitor c=4.0482e-16 m=1
+\+1408 (vdd! _112) capacitor c=4.0482e-16 m=1
+\+1407 (vdd! _111) capacitor c=4.0482e-16 m=1
+\+1406 (vdd! _110) capacitor c=5.65062e-15 m=1
+\+1405 (vdd! _109) capacitor c=2.9298e-16 m=1
+\+1404 (vdd! _108) capacitor c=4.4736e-16 m=1
+\+1403 (vdd! _107) capacitor c=8.9472e-16 m=1
+\+1402 (vdd! _106) capacitor c=2.9298e-16 m=1
+\+1401 (vdd! _105) capacitor c=1.22376e-15 m=1
+\+1400 (vdd! _104) capacitor c=7.764e-16 m=1
+\+1399 (vdd! _103) capacitor c=2.9298e-16 m=1
+\+1398 (vdd! _102) capacitor c=4.4736e-16 m=1
+\+1397 (vdd! _100) capacitor c=1.47258e-15 m=1
+\+1396 (vdd! _99) capacitor c=1.71e-16 m=1
+\+1395 (vdd! _98) capacitor c=4.0482e-16 m=1
+\+1394 (vdd! _97) capacitor c=4.0482e-16 m=1
+\+1393 (vdd! _96) capacitor c=4.0482e-16 m=1
+\+1392 (vdd! _95) capacitor c=5.65062e-15 m=1
+\+1391 (vdd! _94) capacitor c=2.9298e-16 m=1
+\+1390 (vdd! _93) capacitor c=4.4736e-16 m=1
+\+1389 (vdd! _92) capacitor c=8.9472e-16 m=1
+\+1388 (vdd! _91) capacitor c=2.9298e-16 m=1
+\+1387 (vdd! _90) capacitor c=1.22376e-15 m=1
+\+1386 (vdd! _89) capacitor c=7.764e-16 m=1
+\+1385 (vdd! _88) capacitor c=2.9298e-16 m=1
+\+1373 (vdd! _75) capacitor c=1.22376e-15 m=1
+\+1327 (vdd! _26) capacitor c=1.34208e-15 m=1
+\+1323 (vdd! X7) capacitor c=4.4736e-16 m=1
+\+1322 (vdd! X6) capacitor c=4.4736e-16 m=1
+\+1321 (vdd! X5) capacitor c=4.4736e-16 m=1
+\+1320 (vdd! X4) capacitor c=4.4736e-16 m=1
+\+1286 (D3 S1) capacitor c=2.7e-16 m=1
+\+1285 (D3 vdd!) capacitor c=3.2904e-16 m=1
+\+1282 (D2 S1) capacitor c=2.7e-16 m=1
+\+1281 (D2 vdd!) capacitor c=3.2904e-16 m=1
+\+1278 (D1 S1) capacitor c=2.7e-16 m=1
+\+1277 (D1 vdd!) capacitor c=3.2904e-16 m=1
+\+1272 (D0 S0) capacitor c=2.7e-16 m=1
+\+1271 (D0 vdd!) capacitor c=6.5808e-16 m=1
+\+1259 (RESET _115) capacitor c=5.1585e-16 m=1
+\+1180 (_90 _207) capacitor c=5.832e-17 m=1
+\+1179 (_90 _206) capacitor c=5.832e-17 m=1
+\+1178 (_90 _205) capacitor c=2.916e-17 m=1
+\+1177 (_90 _204) capacitor c=6.804e-17 m=1
+\+1176 (_90 _203) capacitor c=2.916e-17 m=1
+\+1175 (_90 _202) capacitor c=6.804e-17 m=1
+\+1174 (_90 _201) capacitor c=5.832e-17 m=1
+\+1173 (_90 _200) capacitor c=5.832e-17 m=1
+\+1172 (_90 _199) capacitor c=2.916e-17 m=1
+\+1171 (_90 _198) capacitor c=6.804e-17 m=1
+\+1170 (_90 _197) capacitor c=2.916e-17 m=1
+\+1169 (_90 _196) capacitor c=6.804e-17 m=1
+\+1165 (_90 _117) capacitor c=5.1252e-16 m=1
+\+1164 (_90 _115) capacitor c=1.11012e-15 m=1
+\+1163 (_90 _114) capacitor c=7.8756e-16 m=1
+\+1162 (_90 _113) capacitor c=7.0728e-16 m=1
+\+1161 (_90 _112) capacitor c=5.2224e-16 m=1
+\+1160 (_90 _111) capacitor c=6.9756e-16 m=1
+\+1159 (_90 _110) capacitor c=9.7428e-16 m=1
+\+1158 (_90 _109) capacitor c=5.0091e-16 m=1
+\+1157 (_90 _108) capacitor c=5.1252e-16 m=1
+\+1156 (_90 _107) capacitor c=6.501e-16 m=1
+\+1155 (_90 _106) capacitor c=5.0091e-16 m=1
+\+1153 (_90 _104) capacitor c=6.501e-16 m=1
+\+1152 (_90 _103) capacitor c=5.0091e-16 m=1
+\+1151 (_90 _102) capacitor c=5.1252e-16 m=1
+\+1150 (_90 _100) capacitor c=1.11012e-15 m=1
+\+1149 (_90 _99) capacitor c=7.8756e-16 m=1
+\+1148 (_90 _98) capacitor c=7.0728e-16 m=1
+\+1147 (_90 _97) capacitor c=5.2224e-16 m=1
+\+1146 (_90 _96) capacitor c=6.9756e-16 m=1
+\+1145 (_90 _95) capacitor c=9.7428e-16 m=1
+\+1144 (_90 _94) capacitor c=5.0091e-16 m=1
+\+1143 (_90 _93) capacitor c=5.1252e-16 m=1
+\+1142 (_90 _92) capacitor c=6.501e-16 m=1
+\+1141 (_90 _91) capacitor c=5.0091e-16 m=1
+\+1139 (_89 _90) capacitor c=3.2262e-16 m=1
+\+1120 (_75 _90) capacitor c=9.6786e-16 m=1
+\+1088 (_60 _90) capacitor c=6.4038e-16 m=1
+\+897 (_26 _219) capacitor c=5.832e-17 m=1
+\+896 (_26 _218) capacitor c=5.832e-17 m=1
+\+895 (_26 _217) capacitor c=2.916e-17 m=1
+\+894 (_26 _216) capacitor c=6.804e-17 m=1
+\+893 (_26 _215) capacitor c=2.916e-17 m=1
+\+892 (_26 _214) capacitor c=6.804e-17 m=1
+\+891 (_26 _213) capacitor c=5.832e-17 m=1
+\+890 (_26 _212) capacitor c=5.832e-17 m=1
+\+889 (_26 _211) capacitor c=2.916e-17 m=1
+\+888 (_26 _210) capacitor c=6.804e-17 m=1
+\+887 (_26 _209) capacitor c=2.916e-17 m=1
+\+886 (_26 _208) capacitor c=6.804e-17 m=1
+\+885 (_26 _147) capacitor c=5.1252e-16 m=1
+\+884 (_26 _145) capacitor c=1.11012e-15 m=1
+\+883 (_26 _144) capacitor c=7.8756e-16 m=1
+\+882 (_26 _143) capacitor c=7.0728e-16 m=1
+\+881 (_26 _142) capacitor c=5.2224e-16 m=1
+\+880 (_26 _141) capacitor c=6.9756e-16 m=1
+\+879 (_26 _140) capacitor c=9.7428e-16 m=1
+\+878 (_26 _139) capacitor c=5.0091e-16 m=1
+\+877 (_26 _138) capacitor c=5.1252e-16 m=1
+\+876 (_26 _137) capacitor c=6.501e-16 m=1
+\+875 (_26 _136) capacitor c=5.0091e-16 m=1
+\+874 (_26 _135) capacitor c=6.501e-16 m=1
+\+873 (_26 _134) capacitor c=5.0091e-16 m=1
+\+872 (_26 _133) capacitor c=6.501e-16 m=1
+\+871 (_26 _132) capacitor c=5.0091e-16 m=1
+\+870 (_26 _131) capacitor c=5.1252e-16 m=1
+\+869 (_26 _129) capacitor c=1.11012e-15 m=1
+\+868 (_26 _128) capacitor c=7.8756e-16 m=1
+\+867 (_26 _127) capacitor c=7.0728e-16 m=1
+\+866 (_26 _126) capacitor c=5.2224e-16 m=1
+\+865 (_26 _125) capacitor c=6.9756e-16 m=1
+\+864 (_26 _124) capacitor c=9.7428e-16 m=1
+\+863 (_26 _123) capacitor c=5.0091e-16 m=1
+\+862 (_26 _122) capacitor c=5.1252e-16 m=1
+\+861 (_26 _121) capacitor c=6.501e-16 m=1
+\+860 (_26 _120) capacitor c=5.0091e-16 m=1
+\+859 (_26 _119) capacitor c=3.2262e-16 m=1
+\+858 (_26 _105) capacitor c=9.6786e-16 m=1
+\+856 (_26 _42) capacitor c=3.2262e-16 m=1
+\+761 (S2 _26) capacitor c=7.4016e-16 m=1
+\+757 (S1 _90) capacitor c=1.69158e-15 m=1
+\+751 (S1 _26) capacitor c=1.11024e-15 m=1
+\+746 (S0 _26) capacitor c=3.7008e-16 m=1
+\+745 (X7 _26) capacitor c=5.1252e-16 m=1
+\+635 (X6 _26) capacitor c=5.1252e-16 m=1
+\+631 (X5 _90) capacitor c=5.1252e-16 m=1
+\+627 (X4 _90) capacitor c=5.1252e-16 m=1
+\+615 (vdd! _90) capacitor c=1.1503e-14 m=1
+\+610 (vdd! _26) capacitor c=1.25872e-13 m=1
+\+576 (D2 _90) capacitor c=3.2262e-16 m=1
+\+573 (D1 _105) capacitor c=3.1776e-16 m=1
+\+568 (D0 _26) capacitor c=6.4524e-16 m=1
+\+565 (RESET _90) capacitor c=7.4016e-16 m=1
+\+559 (RESET _26) capacitor c=7.4016e-16 m=1
+\+556 (S0 _131) capacitor c=2.424e-16 m=1
+\+555 (S0 _129) capacitor c=3.048e-16 m=1
+\+553 (S0 _127) capacitor c=3.048e-16 m=1
+\+552 (S0 _126) capacitor c=2.1576e-16 m=1
+\+547 (S0 _121) capacitor c=3.0672e-16 m=1
+\+545 (S0 _119) capacitor c=3.0672e-16 m=1
+\+543 (S0 _117) capacitor c=2.424e-16 m=1
+\+542 (S0 _115) capacitor c=3.048e-16 m=1
+\+540 (S0 _113) capacitor c=3.048e-16 m=1
+\+538 (S0 _111) capacitor c=3.048e-16 m=1
+\+537 (S0 _110) capacitor c=3.4932e-16 m=1
+\+531 (S0 _104) capacitor c=4.2624e-16 m=1
+\+528 (S0 _100) capacitor c=3.048e-16 m=1
+\+527 (S0 _99) capacitor c=1.7808e-16 m=1
+\+526 (S0 _98) capacitor c=3.048e-16 m=1
+\+524 (S0 _96) capacitor c=3.048e-16 m=1
+\+523 (S0 _95) capacitor c=3.4932e-16 m=1
+\+520 (S0 _92) capacitor c=3.0672e-16 m=1
+\+518 (S0 _90) capacitor c=5.5692e-16 m=1
+\+458 (S0 _26) capacitor c=3.0672e-16 m=1
+\+438 (D2 S0) capacitor c=2.7288e-16 m=1
+\+429 (D0 vdd!) capacitor c=1.1874e-16 m=1
+\+1608 (_23 _109) capacitor c=5.7258e-16 m=1
+\+1593 (_23 _94) capacitor c=5.7258e-16 m=1
+\+1590 (_23 _91) capacitor c=5.7258e-16 m=1
+\+1196 (_105 _117) capacitor c=5.028e-16 m=1
+\+1195 (_105 _115) capacitor c=6.42e-16 m=1
+\+1194 (_105 _114) capacitor c=3.7008e-16 m=1
+\+1193 (_105 _113) capacitor c=6.42e-16 m=1
+\+1192 (_105 _112) capacitor c=4.5696e-16 m=1
+\+1191 (_105 _111) capacitor c=6.42e-16 m=1
+\+1190 (_105 _110) capacitor c=8.1096e-16 m=1
+\+1189 (_105 _109) capacitor c=7.38945e-16 m=1
+\+1188 (_105 _108) capacitor c=5.028e-16 m=1
+\+1187 (_105 _107) capacitor c=6.3552e-16 m=1
+\+1184 (_104 _105) capacitor c=3.1776e-16 m=1
+\+1154 (_90 _105) capacitor c=9.5814e-16 m=1
+\+1131 (_75 _102) capacitor c=5.028e-16 m=1
+\+1130 (_75 _100) capacitor c=6.42e-16 m=1
+\+1129 (_75 _99) capacitor c=3.7008e-16 m=1
+\+1128 (_75 _98) capacitor c=6.42e-16 m=1
+\+1127 (_75 _97) capacitor c=4.5696e-16 m=1
+\+1126 (_75 _96) capacitor c=6.42e-16 m=1
+\+1125 (_75 _95) capacitor c=8.1096e-16 m=1
+\+1124 (_75 _94) capacitor c=7.38945e-16 m=1
+\+1123 (_75 _93) capacitor c=5.028e-16 m=1
+\+1122 (_75 _92) capacitor c=6.3552e-16 m=1
+\+1119 (_75 _89) capacitor c=6.3552e-16 m=1
+\+1074 (_60 _75) capacitor c=9.5814e-16 m=1
+\+813 (S2 _105) capacitor c=9.63e-16 m=1
+\+756 (S1 _75) capacitor c=1.53462e-15 m=1
+\+632 (X5 _105) capacitor c=5.028e-16 m=1
+\+626 (X4 _75) capacitor c=5.028e-16 m=1
+\+616 (vdd! _105) capacitor c=1.3287e-14 m=1
+\+614 (vdd! _75) capacitor c=1.3287e-14 m=1
+\+579 (D3 _75) capacitor c=3.1776e-16 m=1
+\+566 (RESET _105) capacitor c=1.11024e-15 m=1
+\+453 (S0 S1) capacitor c=1.98588e-15 m=1
+\+1827 (vdd! _106) capacitor c=1.3392e-16 m=1
+\+1826 (vdd! _103) capacitor c=1.3392e-16 m=1
+\+1769 (vdd! S2) capacitor c=4.28544e-15 m=1
+\+1633 (_23 _134) capacitor c=5.7258e-16 m=1
+\+1632 (_23 _133) capacitor c=1.60464e-15 m=1
+\+1621 (_23 _122) capacitor c=7.4316e-16 m=1
+\+1619 (_23 _120) capacitor c=5.7258e-16 m=1
+\+1324 (vdd! _23) capacitor c=6.89184e-15 m=1
+\+1224 (_133 _135) capacitor c=3.1776e-16 m=1
+\+1209 (_105 _131) capacitor c=5.028e-16 m=1
+\+1208 (_105 _129) capacitor c=6.42e-16 m=1
+\+1207 (_105 _128) capacitor c=3.7008e-16 m=1
+\+1206 (_105 _127) capacitor c=6.42e-16 m=1
+\+1205 (_105 _126) capacitor c=4.5696e-16 m=1
+\+1204 (_105 _125) capacitor c=6.42e-16 m=1
+\+1203 (_105 _124) capacitor c=8.1096e-16 m=1
+\+1202 (_105 _123) capacitor c=7.38945e-16 m=1
+\+1201 (_105 _122) capacitor c=5.028e-16 m=1
+\+1200 (_105 _121) capacitor c=6.3552e-16 m=1
+\+1198 (_105 _119) capacitor c=6.3552e-16 m=1
+\+1018 (_42 _133) capacitor c=3.1776e-16 m=1
+\+848 (_23 _133) capacitor c=5.81647e-16 m=1
+\+845 (_23 _105) capacitor c=1.38486e-14 m=1
+\+759 (S1 _133) capacitor c=3.1776e-16 m=1
+\+758 (S1 _105) capacitor c=1.53462e-15 m=1
+\+637 (X6 _105) capacitor c=5.028e-16 m=1
+\+617 (vdd! _133) capacitor c=6.49845e-16 m=1
+\+570 (D0 _133) capacitor c=3.1776e-16 m=1
+\+1852 (vdd! _139) capacitor c=1.3392e-16 m=1
+\+1850 (vdd! _136) capacitor c=1.3392e-16 m=1
+\+1840 (vdd! _123) capacitor c=1.3392e-16 m=1
+\+1838 (vdd! _120) capacitor c=1.3392e-16 m=1
+\+427 (_26 X7 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+426 (vdd! _145 X7 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+425 (_147 _145 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=2.25e-12 ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+424 (vdd! _147 _219 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+423 (_219 RESET _218 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=1.35e-12 ps=1.8e-06 pd=1.8e-06 m=1 region=sat
+\+422 (_218 _141 _145 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+421 (_145 _140 _217 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=2.25e-12 ps=9e-07 pd=4.5e-06 m=1 region=sat
+\+420 (_217 _144 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=6.75e-13 ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+419 (_144 _143 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=2.25e-12 ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+418 (_143 RESET _216 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.7e-12 ps=2.1e-06 pd=5.1e-06 m=1 region=sat
+\+417 (_216 _142 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 \
+        ad=1.575e-12 ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+416 (vdd! _143 _215 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=1.8e-12 ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+415 (_215 _140 _142 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=6.75e-13 ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+414 (_142 _141 _214 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+413 (_214 _138 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+412 (_141 _140 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+411 (vdd! CLK _140 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+410 (vdd! S2 _139 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+409 (_135 S2 _138 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+408 (_138 _139 _137 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+407 (vdd! _136 _137 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+406 (_137 S1 _105 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+405 (_136 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+404 (_133 _134 _135 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+403 (_135 S1 D0 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+402 (_134 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+401 (_42 _132 _133 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+400 (_133 S0 D0 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+399 (_132 S0 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+398 (_105 X6 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+397 (vdd! _129 X6 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+396 (_131 _129 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=2.25e-12 ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+395 (vdd! _131 _213 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+394 (_213 RESET _212 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=1.35e-12 ps=1.8e-06 pd=1.8e-06 m=1 region=sat
+\+393 (_212 _125 _129 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+392 (_129 _124 _211 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=2.25e-12 ps=9e-07 pd=4.5e-06 m=1 region=sat
+\+391 (_211 _128 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=6.75e-13 ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+390 (_128 _127 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=2.25e-12 ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+389 (_127 RESET _210 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.7e-12 ps=2.1e-06 pd=5.1e-06 m=1 region=sat
+\+388 (_210 _126 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 \
+        ad=1.575e-12 ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+387 (vdd! _127 _209 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=1.8e-12 ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+386 (_209 _124 _126 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=6.75e-13 ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+385 (_126 _125 _208 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+384 (_208 _122 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+383 (_125 _124 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+382 (vdd! CLK _124 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+381 (vdd! S2 _123 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+380 (_119 S2 _122 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+379 (_122 _123 _121 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+378 (vdd! _120 _121 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+377 (_121 S1 _90 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+376 (_120 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+375 (_26 _118 _119 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+374 (_119 S1 D1 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+373 (_118 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+372 (_90 X5 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+371 (vdd! _115 X5 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+370 (_117 _115 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=2.25e-12 ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+369 (vdd! _117 _207 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+368 (_207 RESET _206 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=1.35e-12 ps=1.8e-06 pd=1.8e-06 m=1 region=sat
+\+367 (_206 _111 _115 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+366 (_115 _110 _205 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=2.25e-12 ps=9e-07 pd=4.5e-06 m=1 region=sat
+\+365 (_205 _114 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=6.75e-13 ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+364 (_114 _113 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=2.25e-12 ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+363 (_113 RESET _204 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.7e-12 ps=2.1e-06 pd=5.1e-06 m=1 region=sat
+\+362 (_204 _112 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 \
+        ad=1.575e-12 ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+361 (vdd! _113 _203 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=1.8e-12 ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+360 (_203 _110 _112 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=6.75e-13 ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+359 (_112 _111 _202 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+358 (_202 _108 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+357 (_111 _110 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+356 (vdd! CLK _110 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+355 (vdd! S2 _109 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+354 (_104 S2 _108 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+353 (_108 _109 _107 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+352 (vdd! _106 _107 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+351 (_107 S1 _75 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+350 (_106 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+349 (_105 _103 _104 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+348 (_104 S1 D2 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+347 (_103 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+346 (_75 X4 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+345 (vdd! _100 X4 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+344 (_102 _100 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=2.25e-12 ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+343 (vdd! _102 _201 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+342 (_201 RESET _200 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=1.35e-12 ps=1.8e-06 pd=1.8e-06 m=1 region=sat
+\+341 (_200 _96 _100 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+340 (_100 _95 _199 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=2.25e-12 ps=9e-07 pd=4.5e-06 m=1 region=sat
+\+339 (_199 _99 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=6.75e-13 ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+338 (_99 _98 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+337 (_98 RESET _198 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.7e-12 ps=2.1e-06 pd=5.1e-06 m=1 region=sat
+\+336 (_198 _97 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 \
+        ad=1.575e-12 ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+335 (vdd! _98 _197 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+334 (_197 _95 _97 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+333 (_97 _96 _196 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+332 (_196 _93 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+331 (_96 _95 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+330 (vdd! CLK _95 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+329 (vdd! S2 _94 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+328 (_89 S2 _93 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+327 (_93 _94 _92 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+326 (vdd! _91 _92 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+325 (_92 S1 _60 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+324 (_91 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+323 (_90 _88 _89 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+322 (_89 S1 D3 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+321 (_88 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+320 (_60 X3 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+319 (vdd! _85 X3 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+318 (_87 _85 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+317 (vdd! _87 _195 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+316 (_195 RESET _194 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=1.35e-12 ps=1.8e-06 pd=1.8e-06 m=1 region=sat
+\+315 (_194 _81 _85 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+314 (_85 _80 _193 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=2.25e-12 \
+        ps=9e-07 pd=4.5e-06 m=1 region=sat
+\+313 (_193 _84 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=6.75e-13 ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+312 (_84 _83 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+311 (_83 RESET _192 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.7e-12 ps=2.1e-06 pd=5.1e-06 m=1 region=sat
+\+310 (_192 _82 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 \
+        ad=1.575e-12 ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+309 (vdd! _83 _191 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+308 (_191 _80 _82 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+307 (_82 _81 _190 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+306 (_190 _78 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+305 (_81 _80 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+304 (vdd! CLK _80 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+303 (vdd! S2 _79 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+302 (_74 S2 _78 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+301 (_78 _79 _77 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+300 (vdd! _76 _77 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+299 (_77 S1 _45 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+298 (_76 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+297 (_75 _73 _74 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+296 (_74 S1 D4 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+295 (_73 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+294 (_45 X2 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+293 (vdd! _70 X2 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+292 (_72 _70 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+291 (vdd! _72 _189 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+290 (_189 RESET _188 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=1.35e-12 ps=1.8e-06 pd=1.8e-06 m=1 region=sat
+\+289 (_188 _66 _70 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+288 (_70 _65 _187 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=2.25e-12 \
+        ps=9e-07 pd=4.5e-06 m=1 region=sat
+\+287 (_187 _69 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=6.75e-13 ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+286 (_69 _68 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+285 (_68 RESET _186 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.7e-12 ps=2.1e-06 pd=5.1e-06 m=1 region=sat
+\+284 (_186 _67 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 \
+        ad=1.575e-12 ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+283 (vdd! _68 _185 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+282 (_185 _65 _67 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+281 (_67 _66 _184 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+280 (_184 _63 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+279 (_66 _65 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+278 (vdd! CLK _65 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+277 (vdd! S2 _64 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+276 (_59 S2 _63 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+275 (_63 _64 _62 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+274 (vdd! _61 _62 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+273 (_62 S1 _29 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+272 (_61 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+271 (_60 _58 _59 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+270 (_59 S1 D5 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+269 (_58 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+268 (_29 X1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+267 (vdd! _55 X1 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+266 (_57 _55 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+265 (vdd! _57 _183 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+264 (_183 RESET _182 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=1.35e-12 ps=1.8e-06 pd=1.8e-06 m=1 region=sat
+\+263 (_182 _51 _55 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+262 (_55 _50 _181 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=2.25e-12 \
+        ps=9e-07 pd=4.5e-06 m=1 region=sat
+\+261 (_181 _54 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=6.75e-13 ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+260 (_54 _53 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+259 (_53 RESET _180 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.7e-12 ps=2.1e-06 pd=5.1e-06 m=1 region=sat
+\+258 (_180 _52 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 \
+        ad=1.575e-12 ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+257 (vdd! _53 _179 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+256 (_179 _50 _52 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+255 (_52 _51 _178 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+254 (_178 _48 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+253 (_51 _50 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+252 (vdd! CLK _50 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+251 (vdd! S2 _49 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+250 (_44 S2 _48 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+249 (_48 _49 _47 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+248 (vdd! _46 _47 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+247 (_47 S1 _42 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+246 (_46 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+245 (_45 _43 _44 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+244 (_44 S1 D6 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+243 (_43 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+242 (_42 X0 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+241 (vdd! _39 X0 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+240 (_41 _39 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+239 (vdd! _41 _177 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+238 (_177 RESET _176 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=1.35e-12 ps=1.8e-06 pd=1.8e-06 m=1 region=sat
+\+237 (_176 _35 _39 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+236 (_39 _34 _175 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=2.25e-12 \
+        ps=9e-07 pd=4.5e-06 m=1 region=sat
+\+235 (_175 _38 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=6.75e-13 ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+234 (_38 _37 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+233 (_37 RESET _174 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.7e-12 ps=2.1e-06 pd=5.1e-06 m=1 region=sat
+\+232 (_174 _36 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.8e-12 \
+        ad=1.575e-12 ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+231 (vdd! _37 _173 vdd!) ami06P w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+230 (_173 _34 _36 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+229 (_36 _35 _172 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+228 (_172 _32 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+227 (_35 _34 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+226 (vdd! CLK _34 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+225 (vdd! S2 _33 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+224 (_28 S2 _32 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+223 (_32 _33 _31 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+222 (vdd! _30 _31 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+221 (_31 S1 _25 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+220 (_30 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+219 (_29 _27 _28 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+218 (_28 S1 D7 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+217 (_27 S1 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+216 (_26 _24 _25 vdd!) ami06P w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+215 (_25 S0 D7 vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+214 (_24 S0 vdd! vdd!) ami06P w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+213 (_26 X7 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+212 (_23 _145 X7 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+211 (_147 _145 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+210 (_146 _147 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+209 (_23 RESET _146 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+208 (_146 _140 _145 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+207 (_145 _141 _171 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=1.35e-12 ps=9e-07 pd=1.8e-06 m=1 region=sat
+\+206 (_171 _144 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=6.75e-13 \
+        ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+205 (_144 _143 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+204 (_23 RESET _143 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+203 (_143 _142 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=1.575e-12 \
+        ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+202 (_23 _143 _170 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+201 (_170 _141 _142 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=6.75e-13 ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+200 (_142 _140 _169 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+199 (_169 _138 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+198 (_141 _140 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+197 (_23 CLK _140 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+196 (_23 S2 _139 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+195 (_135 _139 _138 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+194 (_138 S2 _137 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+193 (vdd! S1 _137 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+192 (_137 _136 _105 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+191 (_136 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+190 (_133 S1 _135 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+189 (_135 _134 D0 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+188 (_134 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+187 (_42 S0 _133 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+186 (_133 _132 D0 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+185 (_132 S0 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+184 (_105 X6 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+183 (_23 _129 X6 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+182 (_131 _129 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+181 (_130 _131 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+180 (_23 RESET _130 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+179 (_130 _124 _129 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+178 (_129 _125 _168 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=1.35e-12 ps=9e-07 pd=1.8e-06 m=1 region=sat
+\+177 (_168 _128 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=6.75e-13 \
+        ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+176 (_128 _127 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+175 (_23 RESET _127 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+174 (_127 _126 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=1.575e-12 \
+        ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+173 (_23 _127 _167 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+172 (_167 _125 _126 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=6.75e-13 ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+171 (_126 _124 _166 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+170 (_166 _122 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+169 (_125 _124 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+168 (_23 CLK _124 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+167 (_23 S2 _123 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+166 (_119 _123 _122 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+165 (_122 S2 _121 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+164 (vdd! S1 _121 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+163 (_121 _120 _90 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+162 (_120 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+161 (_26 S1 _119 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+160 (_119 _118 D1 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+159 (_118 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+158 (_90 X5 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+157 (_23 _115 X5 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+156 (_117 _115 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+155 (_116 _117 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+154 (_23 RESET _116 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+153 (_116 _110 _115 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+152 (_115 _111 _165 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 \
+        ad=1.35e-12 ps=9e-07 pd=1.8e-06 m=1 region=sat
+\+151 (_165 _114 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=6.75e-13 \
+        ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+150 (_114 _113 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+149 (_23 RESET _113 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+148 (_113 _112 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=1.575e-12 \
+        ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+147 (_23 _113 _164 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+146 (_164 _111 _112 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=6.75e-13 ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+145 (_112 _110 _163 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=1.35e-12 ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+144 (_163 _108 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.575e-12 ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+143 (_111 _110 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+142 (_23 CLK _110 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+141 (_23 S2 _109 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+140 (_104 _109 _108 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 \
+        ad=2.25e-12 ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+139 (_108 S2 _107 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+138 (vdd! S1 _107 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+137 (_107 _106 _75 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+136 (_106 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+135 (_105 S1 _104 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+134 (_104 _103 D2 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+133 (_103 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+132 (_75 X4 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+131 (_23 _100 X4 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+130 (_102 _100 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+129 (_101 _102 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+128 (_23 RESET _101 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 \
+        ad=1.35e-12 ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+127 (_101 _95 _100 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+126 (_100 _96 _162 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.35e-12 \
+        ps=9e-07 pd=1.8e-06 m=1 region=sat
+\+125 (_162 _99 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=6.75e-13 \
+        ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+124 (_99 _98 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+123 (_23 RESET _98 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 \
+        ad=2.25e-12 ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+122 (_98 _97 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=1.575e-12 \
+        ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+121 (_23 _98 _161 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+120 (_161 _96 _97 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+119 (_97 _95 _160 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=1.35e-12 \
+        ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+118 (_160 _93 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+117 (_96 _95 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+116 (_23 CLK _95 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+115 (_23 S2 _94 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+114 (_89 _94 _93 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+113 (_93 S2 _92 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+112 (vdd! S1 _92 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+111 (_92 _91 _60 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+110 (_91 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+109 (_90 S1 _89 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+108 (_89 _88 D3 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+107 (_88 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+106 (_60 X3 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+105 (_23 _85 X3 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+104 (_87 _85 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+103 (_86 _87 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+102 (_23 RESET _86 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+101 (_86 _80 _85 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+100 (_85 _81 _159 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.35e-12 \
+        ps=9e-07 pd=1.8e-06 m=1 region=sat
+\+99 (_159 _84 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=6.75e-13 \
+        ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+98 (_84 _83 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+97 (_23 RESET _83 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+96 (_83 _82 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=1.575e-12 \
+        ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+95 (_23 _83 _158 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+94 (_158 _81 _82 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+93 (_82 _80 _157 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=1.35e-12 \
+        ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+92 (_157 _78 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+91 (_81 _80 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+90 (_23 CLK _80 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+89 (_23 S2 _79 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+88 (_74 _79 _78 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+87 (_78 S2 _77 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+86 (vdd! S1 _77 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+85 (_77 _76 _45 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+84 (_76 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+83 (_75 S1 _74 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+82 (_74 _73 D4 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+81 (_73 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+80 (_45 X2 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+79 (_23 _70 X2 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+78 (_72 _70 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+77 (_71 _72 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+76 (_23 RESET _71 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+75 (_71 _65 _70 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+74 (_70 _66 _156 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.35e-12 \
+        ps=9e-07 pd=1.8e-06 m=1 region=sat
+\+73 (_156 _69 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=6.75e-13 \
+        ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+72 (_69 _68 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+71 (_23 RESET _68 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+70 (_68 _67 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=1.575e-12 \
+        ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+69 (_23 _68 _155 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+68 (_155 _66 _67 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+67 (_67 _65 _154 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=1.35e-12 \
+        ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+66 (_154 _63 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+65 (_66 _65 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+64 (_23 CLK _65 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+63 (_23 S2 _64 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+62 (_59 _64 _63 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+61 (_63 S2 _62 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+60 (vdd! S1 _62 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+59 (_62 _61 _29 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+58 (_61 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+57 (_60 S1 _59 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+56 (_59 _58 D5 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+55 (_58 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+54 (_29 X1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+53 (_23 _55 X1 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+52 (_57 _55 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+51 (_56 _57 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+50 (_23 RESET _56 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+49 (_56 _50 _55 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+48 (_55 _51 _153 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.35e-12 \
+        ps=9e-07 pd=1.8e-06 m=1 region=sat
+\+47 (_153 _54 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=6.75e-13 \
+        ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+46 (_54 _53 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+45 (_23 RESET _53 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+44 (_53 _52 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=1.575e-12 \
+        ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+43 (_23 _53 _152 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+42 (_152 _51 _52 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+41 (_52 _50 _151 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=1.35e-12 \
+        ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+40 (_151 _48 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+39 (_51 _50 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+38 (_23 CLK _50 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+37 (_23 S2 _49 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+36 (_44 _49 _48 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+35 (_48 S2 _47 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+34 (vdd! S1 _47 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+33 (_47 _46 _42 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+32 (_46 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+31 (_45 S1 _44 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+30 (_44 _43 D6 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+29 (_43 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+28 (_42 X0 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=2.25e-12 \
+        ps=2.4e-06 pd=4.5e-06 m=1 region=sat
+\+27 (_23 _39 X0 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.8e-12 \
+        ps=4.5e-06 pd=2.4e-06 m=1 region=sat
+\+26 (_41 _39 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+25 (_40 _41 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+24 (_23 RESET _40 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+23 (_40 _34 _39 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+22 (_39 _35 _150 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.35e-12 \
+        ps=9e-07 pd=1.8e-06 m=1 region=sat
+\+21 (_150 _38 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=6.75e-13 \
+        ps=4.5e-06 pd=9e-07 m=1 region=sat
+\+20 (_38 _37 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+19 (_23 RESET _37 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+18 (_37 _36 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.8e-12 ad=1.575e-12 \
+        ps=2.4e-06 pd=2.1e-06 m=1 region=sat
+\+17 (_23 _37 _149 _23) ami06N w=1.5e-06 l=6e-07 as=6.75e-13 ad=1.8e-12 \
+        ps=9e-07 pd=2.4e-06 m=1 region=sat
+\+16 (_149 _35 _36 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=6.75e-13 \
+        ps=1.8e-06 pd=9e-07 m=1 region=sat
+\+15 (_36 _34 _148 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=1.35e-12 \
+        ps=2.1e-06 pd=1.8e-06 m=1 region=sat
+\+14 (_148 _32 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+13 (_35 _34 _23 _23) ami06N w=1.5e-06 l=6e-07 as=1.575e-12 ad=2.25e-12 \
+        ps=2.1e-06 pd=4.5e-06 m=1 region=sat
+\+12 (_23 CLK _34 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.575e-12 \
+        ps=4.5e-06 pd=2.1e-06 m=1 region=sat
+\+11 (_23 S2 _33 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+10 (_28 _33 _32 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+9 (_32 S2 _31 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+8 (vdd! S1 _31 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+7 (_31 _30 _25 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+6 (_30 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+5 (_29 S1 _28 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+4 (_28 _27 D7 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+3 (_27 S1 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat
+\+2 (_26 S0 _25 _23) ami06N w=1.5e-06 l=6e-07 as=1.35e-12 ad=2.25e-12 \
+        ps=1.8e-06 pd=4.5e-06 m=1 region=sat
+\+1 (_25 _24 D7 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=1.35e-12 \
+        ps=4.5e-06 pd=1.8e-06 m=1 region=sat
+\+0 (_24 S0 _23 _23) ami06N w=1.5e-06 l=6e-07 as=2.25e-12 ad=2.25e-12 \
+        ps=4.5e-06 pd=4.5e-06 m=1 region=sat

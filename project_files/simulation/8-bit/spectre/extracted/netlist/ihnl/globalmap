@@ -1,0 +1,8 @@
+CADENCE IHNL01060
+$model
+ShiftReg/8-bit/extracted _sub0
+$endmodel
+$net
+$endnet
+$param
+$endparam

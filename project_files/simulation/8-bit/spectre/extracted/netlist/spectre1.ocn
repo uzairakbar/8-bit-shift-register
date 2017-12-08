@@ -1,0 +1,26 @@
+simulator( 'spectre )
+design(	 "/home/vlsi4/groupwork/simulation/8-bit/spectre/extracted/netlist/netlist")
+resultsDir( "/home/vlsi4/groupwork/simulation/8-bit/spectre/extracted" )
+modelFile( 
+    '("/usr/ee424/ami06P.m" "")
+    '("/usr/ee424/ami06N.m" "")
+)
+analysis('tran ?stop "100n"  )
+envOption(
+	'spp  "Y" 
+)
+saveOption( 'pwr "total" )
+temp( 27 ) 
+run()
+modelFile( 
+    '("/usr/ee424/ami06P.m" "")
+    '("/usr/ee424/ami06N.m" "")
+)
+analysis('tran ?stop "300n"  )
+run()
+modelFile( 
+    '("/usr/ee424/ami06P.m" "")
+    '("/usr/ee424/ami06N.m" "")
+)
+analysis('tran ?stop "100n"  )
+run()

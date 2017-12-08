@@ -1,0 +1,88 @@
+Command line:
+    /usr/Cadence/tools.lnx86/spectre/bin/32bit/spectre -env artist5.1.0  \
+        +escchars +log ../psf/spectre.out +inter=mpsc  \
+        +mpssession=spectre1_1838_3 -format sst2 -raw ../psf +spp  \
+        +lqtimeout 900 input.scs
+spectre pid = 4611
+
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libinfineon_sh.so ...
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libnortel_sh.so ...
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libphilips_sh.so ...
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libsparam_sh.so ...
+Loading /usr/Cadence/tools.lnx86/cmi/lib/4.0/libstmodels_sh.so ...
+spectre (ver. 5.10.41_USR5.053107 -- 31 May 2007).
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
+        Security, Inc.
+
+Simulating `input.scs' on cefar at 4:33:21 AM, Sat May 21, 2016.
+
+Circuit inventory:
+              nodes 219
+          equations 233
+            bsim3v3 428   
+          capacitor 1539  
+           quantity 9     
+            vsource 14    
+
+Entering remote command mode using MPSC service (spectre, ipi, v0.0,
+        spectre1_1838_3, ).
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 ns)
+*************************************************
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 ns
+    step = 100 ps
+    maxstep = 2 ns
+    ic = all
+    skipdc = no
+    reltol = 1e-03
+    abstol(I) = 1 pA
+    abstol(V) = 1 uV
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    maxrsd = 0 Ohm
+    mos_method = s
+    mos_vres = 50 mV
+
+    tran: time = 3.1 ns       (3.1 %), step = 1.6 ns        (1.6 %)
+    tran: time = 9.1 ns       (9.1 %), step = 2 ns            (2 %)
+    tran: time = 13.1 ns     (13.1 %), step = 2 ns            (2 %)
+    tran: time = 19.1 ns     (19.1 %), step = 2 ns            (2 %)
+    tran: time = 23.1 ns     (23.1 %), step = 2 ns            (2 %)
+    tran: time = 29.1 ns     (29.1 %), step = 2 ns            (2 %)
+    tran: time = 33.1 ns     (33.1 %), step = 2 ns            (2 %)
+    tran: time = 39.1 ns     (39.1 %), step = 2 ns            (2 %)
+    tran: time = 43.1 ns     (43.1 %), step = 2 ns            (2 %)
+    tran: time = 49.1 ns     (49.1 %), step = 2 ns            (2 %)
+    tran: time = 53.1 ns     (53.1 %), step = 2 ns            (2 %)
+    tran: time = 59.1 ns     (59.1 %), step = 2 ns            (2 %)
+    tran: time = 63.1 ns     (63.1 %), step = 2 ns            (2 %)
+    tran: time = 69.1 ns     (69.1 %), step = 2 ns            (2 %)
+    tran: time = 73.1 ns     (73.1 %), step = 2 ns            (2 %)
+    tran: time = 79.1 ns     (79.1 %), step = 2 ns            (2 %)
+    tran: time = 83.1 ns     (83.1 %), step = 2 ns            (2 %)
+    tran: time = 89.1 ns     (89.1 %), step = 2 ns            (2 %)
+    tran: time = 93.1 ns     (93.1 %), step = 2 ns            (2 %)
+    tran: time = 98.55 ns    (98.6 %), step = 1.45 ns      (1.45 %)
+Number of accepted tran steps = 54.
+Initial condition solution time = 40 ms.
+Intrinsic tran analysis time = 110 ms.
+Total time required for tran analysis `tran' was 150 ms.
+
+finalTimeOP: writing operating point information to rawfile.
+modelParameter: writing model parameter values to rawfile.
+element: writing instance parameter values to rawfile.
+outputParameter: writing output parameter values to rawfile.
+designParamVals: writing netlist parameters to rawfile.
+primitives: writing primitives to rawfile.
+subckts: writing subcircuits to rawfile.
