@@ -1,0 +1,13 @@
+simulator lang=spectre
+vdd (vdd! 0) vsource dc=3
+V1 (S0 0) vsource type=pulse val0=0 val1=3 delay=20n rise=0.05n fall=0.05n width=20n period=40n
+V2 (S1 0) vsource type=pulse val0=0 val1=3 delay=20n rise=0.05n fall=0.05n width=40n period=80n
+V4 (D0 0) vsource dc=3
+V5 (D1 0) vsource dc=0
+V6 (D2 0) vsource dc=3
+V7 (D3 0) vsource dc=0
+V8 (D4 0) vsource dc=3
+V9 (D5 0) vsource dc=0
+V10 (D6 0) vsource dc=3
+V11 (D7 0) vsource dc=0
+V12 (CLK 0) vsource type=pulse val0=0 val1=3 delay=0 rise=0.05n fall=0.05n width=1n period=2n

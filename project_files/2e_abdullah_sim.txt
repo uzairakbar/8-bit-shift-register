@@ -1,0 +1,4 @@
+simulator lang=spectre
+Vdd (vdd! 0) vsource dc=3
+v1 (CLK 0) vsource type=pwl wave=\[0n 0 10n 3 10.05n 0 20n 3 20.05n 0 30n 3 30.05n 0 40n 3]
+v2 (D 0)   vsource type=pwl wave=\[0n 0 15n 3    25n 0 35n 3]

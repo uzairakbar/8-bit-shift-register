@@ -1,0 +1,23 @@
+simulator lang=spectre
+Vdd (vdd! 0) vsource dc=3
+clock (CLK 0) vsource type=pulse val0=0 val1=3 rise=0.05n fall=0.05n width=10n period=20n
+s0 (S0 0) vsource type=pulse val0=0 val1=3 rise=0.05n fall=0.05n width=40n period=80n
+s1 (S1 0) vsource type=pulse val0=0 val1=3 rise=0.05n fall=0.05n width=80n period=160n
+s2 (S2 0) vsource type=pulse val0=0 val1=3 rise=0.05n fall=0.05n width=160n period=320n
+d0 (D0 0) vsource dc=3
+d1 (D1 0) vsource dc=0
+d2 (D2 0) vsource dc=3
+d3 (D3 0) vsource dc=0
+d4 (D4 0) vsource dc=3
+d5 (D5 0) vsource dc=0
+d6 (D6 0) vsource dc=3
+d7 (D7 0) vsource dc=0
+reset (RESET 0) vsource dc=3
+x0 (X0 0) capacitor c=3f
+x1 (X1 0) capacitor c=3f
+x2 (X2 0) capacitor c=3f
+x3 (X3 0) capacitor c=3f
+x4 (X4 0) capacitor c=3f
+x5 (X5 0) capacitor c=3f
+x6 (X6 0) capacitor c=3f
+x7 (X7 0) capacitor c=3f

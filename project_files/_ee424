@@ -1,0 +1,32 @@
+# @(#)cshrc 1.11 89/11/29 SMI
+umask 022
+
+#/*--------------------------------------*/
+#User specific aliases and functions
+setenv CADROOT /usr/
+setenv CDSHOME /usr/Cadence
+
+setenv CDS_Netlisting_Mode Analog
+setenv CDS_SITE $CDSHOME/tools/dfII/local
+setenv XKEYSYMDB $CDSHOME/share/cdssetup/tdmX11/XKeysymDB
+setenv XNLSPATH $CDSHOME/share/cdssetup/tdmX11/nls
+setenv CDS_LOAD_ENV CSF
+
+set path=($path $HOME/bin $CDSHOME/tools/bin $CDSHOME/tools/dfII/bin $CDSHOME/tools/bin/64bit)
+set path=($path $CDSHOME/tools/SKILL06.20/context $CDSHOME/tools/SKILL06.30/context )
+set path=($path $CDSHOME/tools/plot/bin)
+
+setenv CDK_DIR /usr/ee424/ncsu-cdk-1.5.1
+
+#cd $HOME
+
+
+#/*--------------------------------------*/
+
+if ( $?prompt ) then
+set history=32
+endif
+
+
+echo "done"
+set filec 
